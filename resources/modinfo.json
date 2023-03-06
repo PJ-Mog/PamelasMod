@@ -1,11 +1,11 @@
 {
   "type": "Code",
-  "name": "TEMPLATE",
-  "modid": "template",
+  "name": "Pamela's Mod",
+  "modid": "pamelasmod",
   "version": "1.0.0",
-  "description": "A template project for Vintage Story modding.",
-  "website": "https://github.com/PJ-Mog/VSMod-TEMPLATE",
-  "authors": [ "JapanHasRice" ],
+  "description": "",
+  "website": "https://github.com/PJ-Mog/PamelasMod",
+  "authors": [ "Pamela", "JapanHasRice" ],
   "contributors": [],
   "dependencies": {
     "game": "",

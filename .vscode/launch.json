@@ -2,14 +2,15 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Launch Client (.NET) [1.17]",
+      "name": "Launch Client (.NET) [1.18]",
       "type": "clr",
       "request": "launch",
       "preLaunchTask": "Build (Debug)",
-      "program": "${env:VINTAGE_STORY_DEV}/1.17/Vintagestory.exe",
+      "program": "${env:VINTAGE_STORY_DEV}/1.18/Vintagestory.exe",
       "args": [
         "--playStyle" , "preset-surviveandbuild",
         "--openWorld" , "modding test world",
+        "--dataPath", "${env:VINTAGE_STORY_DEV}/../VintagestoryDevDataUS",
         "--addModPath", "${workspaceFolder}/bin/Debug/zip"
       ],
       "console": "internalConsole",
