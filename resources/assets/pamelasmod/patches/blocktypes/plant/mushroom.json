@@ -1,0 +1,135 @@
+[
+  {
+    "op": "replace",
+    "path": "/attributes/nutritionPropsWhenInMeal/healthByType/*-bitterbolete-*",
+    "value": 3,
+    "file": "game:blocktypes/plant/mushroom.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/nutritionPropsWhenInMeal/healthByType/*-deathcap-*",
+    "value": 50,
+    "file": "game:blocktypes/plant/mushroom.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/nutritionPropsWhenInMeal/healthByType/*-devilbolete-*",
+    "value": 10,
+    "file": "game:blocktypes/plant/mushroom.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/nutritionPropsWhenInMeal/healthByType/*-devilstooth-*",
+    "value": 2,
+    "file": "game:blocktypes/plant/mushroom.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/nutritionPropsWhenInMeal/healthByType/*-earthball-*",
+    "value": 8,
+    "file": "game:blocktypes/plant/mushroom.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/nutritionPropsWhenInMeal/healthByType/*-elfinsaddle-*",
+    "value": 7,
+    "file": "game:blocktypes/plant/mushroom.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/nutritionPropsWhenInMeal/healthByType/*-flyagaric-*",
+    "value": 6.5,
+    "file": "game:blocktypes/plant/mushroom.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/nutritionPropsWhenInMeal/healthByType/*-golddropmilkcap-*",
+    "value": 2.5,
+    "file": "game:blocktypes/plant/mushroom.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/nutritionPropsWhenInMeal/healthByType/*-jackolantern-*",
+    "value": 6,
+    "file": "game:blocktypes/plant/mushroom.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/drops/0/quantity/avg",
+    "value": 2,
+    "file": "game:blocktypes/plant/mushroom.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/nutritionPropsByType/*-bitterbolete-*/health",
+    "value": 3,
+    "file": "game:blocktypes/plant/mushroom.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/nutritionPropsByType/*-deathcap-*/health",
+    "value": 50,
+    "file": "game:blocktypes/plant/mushroom.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/nutritionPropsByType/*-devilbolete-*/health",
+    "value": 10,
+    "file": "game:blocktypes/plant/mushroom.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/nutritionPropsByType/*-devilstooth-*/health",
+    "value": 2,
+    "file": "game:blocktypes/plant/mushroom.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/nutritionPropsByType/*-earthball-*/health",
+    "value": 8,
+    "file": "game:blocktypes/plant/mushroom.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/nutritionPropsByType/*-elfinsaddle-*/health",
+    "value": 7,
+    "file": "game:blocktypes/plant/mushroom.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/nutritionPropsByType/*-flyagaric-*/health",
+    "value": 6.5,
+    "file": "game:blocktypes/plant/mushroom.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/nutritionPropsByType/*-golddropmilkcap-*/health",
+    "value": 2.5,
+    "file": "game:blocktypes/plant/mushroom.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/nutritionPropsByType/*-jackolantern-*/health",
+    "value": 6,
+    "file": "game:blocktypes/plant/mushroom.json",
+    "side": "Server"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "op": "replace",
+    "path": "/server/behaviors/5/drops/0/quantityByType/*/avg",
+    "value": 5,
+    "file": "game:entities/land/chicken-hen.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/5/drops/0/quantityByType/*/var",
+    "value": 0,
+    "file": "game:entities/land/chicken-hen.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/5/drops/0/quantityByType/*-henpoult/avg",
+    "value": 3,
+    "file": "game:entities/land/chicken-hen.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/5/drops/0/quantityByType/*-henpoult/var",
+    "value": 0,
+    "file": "game:entities/land/chicken-hen.json",
+    "side": "Server"
+  }
+]

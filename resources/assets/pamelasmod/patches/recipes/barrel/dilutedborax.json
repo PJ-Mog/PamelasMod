@@ -1,0 +1,9 @@
+[
+  {
+    "op": "replace",
+    "path": "/ingredients/1/quantity",
+    "value": 1,
+    "file": "game:recipes/barrel/dilutedborax.json",
+    "side": "Server"
+  }
+]

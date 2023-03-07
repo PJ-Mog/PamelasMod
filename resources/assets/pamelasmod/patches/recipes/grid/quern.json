@@ -1,0 +1,16 @@
+[
+  {
+    "op": "add",
+    "path": "/ingredients/R/allowedVariants/1",
+    "value": "claystone",
+    "file": "game:recipes/grid/quern.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/R/allowedVariants/2",
+    "value": "slate",
+    "file": "game:recipes/grid/quern.json",
+    "side": "Server"
+  }
+]

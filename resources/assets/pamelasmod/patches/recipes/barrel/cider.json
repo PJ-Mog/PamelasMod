@@ -1,0 +1,51 @@
+[
+  {
+    "op": "replace",
+    "path": "/0/sealHours",
+    "value": 18,
+    "file": "game:recipes/barrel/cider.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/1/sealHours",
+    "value": 36,
+    "file": "game:recipes/barrel/cider.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/2/sealHours",
+    "value": 36,
+    "file": "game:recipes/barrel/cider.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/3/sealHours",
+    "value": 36,
+    "file": "game:recipes/barrel/cider.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/4/sealHours",
+    "value": 36,
+    "file": "game:recipes/barrel/cider.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/5/sealHours",
+    "value": 36,
+    "file": "game:recipes/barrel/cider.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/6/sealHours",
+    "value": 36,
+    "file": "game:recipes/barrel/cider.json",
+    "side": "Server"
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "op": "replace",
+    "path": "/transitionablePropsByType/*/0/freshHours/avg",
+    "value": 480,
+    "file": "game:itemtypes/food/fruit.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/transitionablePropsByType/*-cranberry/0/freshHours/avg",
+    "value": 960,
+    "file": "game:itemtypes/food/fruit.json",
+    "side": "Server"
+  }
+]

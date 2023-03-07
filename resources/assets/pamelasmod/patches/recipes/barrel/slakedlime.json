@@ -1,0 +1,16 @@
+[
+  {
+    "op": "replace",
+    "path": "/ingredients/1/quantity",
+    "value": 1,
+    "file": "game:recipes/barrel/slakedlime.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/output/litres",
+    "value": 1,
+    "file": "game:recipes/barrel/slakedlime.json",
+    "side": "Server"
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "op": "replace",
+    "path": "/attributes/metalUnitsByType/ore-bountiful-*",
+    "value": 100,
+    "file": "game:itemtypes/resource/ore-graded.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/metalUnitsByType/ore-bountiful-cassiterite-*",
+    "value": 80,
+    "file": "game:itemtypes/resource/ore-graded.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/metalUnitsByType/ore-bountiful-hematite-*",
+    "value": 80,
+    "file": "game:itemtypes/resource/ore-graded.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/metalUnitsByType/ore-bountiful-quartz_nativegold-*",
+    "value": 80,
+    "file": "game:itemtypes/resource/ore-graded.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/metalUnitsByType/ore-bountiful-quartz_nativesilver-*",
+    "value": 60,
+    "file": "game:itemtypes/resource/ore-graded.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/metalUnitsByType/ore-medium-*",
+    "value": 55,
+    "file": "game:itemtypes/resource/ore-graded.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/metalUnitsByType/ore-medium-cassiterite-*",
+    "value": 40,
+    "file": "game:itemtypes/resource/ore-graded.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/metalUnitsByType/ore-medium-hematite-*",
+    "value": 50,
+    "file": "game:itemtypes/resource/ore-graded.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/metalUnitsByType/ore-medium-quartz_nativegold-*",
+    "value": 40,
+    "file": "game:itemtypes/resource/ore-graded.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/metalUnitsByType/ore-medium-quartz_nativesilver-*",
+    "value": 40,
+    "file": "game:itemtypes/resource/ore-graded.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/metalUnitsByType/ore-poor-*",
+    "value": 45,
+    "file": "game:itemtypes/resource/ore-graded.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/metalUnitsByType/ore-poor-cassiterite-*",
+    "value": 20,
+    "file": "game:itemtypes/resource/ore-graded.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/metalUnitsByType/ore-poor-hematite-*",
+    "value": 40,
+    "file": "game:itemtypes/resource/ore-graded.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/metalUnitsByType/ore-poor-quartz_nativegold-*",
+    "value": 20,
+    "file": "game:itemtypes/resource/ore-graded.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/metalUnitsByType/ore-poor-quartz_nativesilver-*",
+    "value": 30,
+    "file": "game:itemtypes/resource/ore-graded.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/metalUnitsByType/ore-rich-*",
+    "value": 75,
+    "file": "game:itemtypes/resource/ore-graded.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/metalUnitsByType/ore-rich-cassiterite-*",
+    "value": 60,
+    "file": "game:itemtypes/resource/ore-graded.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/metalUnitsByType/ore-rich-hematite-*",
+    "value": 60,
+    "file": "game:itemtypes/resource/ore-graded.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/metalUnitsByType/ore-rich-quartz_nativegold-*",
+    "value": 60,
+    "file": "game:itemtypes/resource/ore-graded.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/metalUnitsByType/ore-rich-quartz_nativesilver-*",
+    "value": 50,
+    "file": "game:itemtypes/resource/ore-graded.json",
+    "side": "Server"
+  }
+]

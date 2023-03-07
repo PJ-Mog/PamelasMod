@@ -1,0 +1,37 @@
+[
+  {
+    "op": "replace",
+    "path": "/server/behaviors/6/drops/2/quantityByType/*-black/avg",
+    "value": 4,
+    "file": "game:entities/land/bear.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/6/drops/2/quantityByType/*-brown/avg",
+    "value": 4,
+    "file": "game:entities/land/bear.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/6/drops/2/quantityByType/*-panda/avg",
+    "value": 3,
+    "file": "game:entities/land/bear.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/6/drops/2/quantityByType/*-polar/avg",
+    "value": 6,
+    "file": "game:entities/land/bear.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/6/drops/2/quantityByType/*-sun/avg",
+    "value": 2,
+    "file": "game:entities/land/bear.json",
+    "side": "Server"
+  }
+]

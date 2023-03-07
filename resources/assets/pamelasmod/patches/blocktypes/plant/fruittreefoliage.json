@@ -1,0 +1,17 @@
+[
+  {
+    "op": "remove",
+    "path": "/textures",
+    "file": "game:blocktypes/plant/fruittreefoliage.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/vertexFlags",
+    "value": {
+      "zOffset": 4
+    },
+    "file": "game:blocktypes/plant/fruittreefoliage.json",
+    "side": "Server"
+  }
+]

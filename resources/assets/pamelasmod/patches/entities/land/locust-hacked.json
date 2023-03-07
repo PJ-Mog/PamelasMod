@@ -1,0 +1,9 @@
+[
+  {
+    "op": "add",
+    "path": "/server/behaviors/-",
+    "value": { "code": "despawn", "minPlayerDistance": 48, "minSecondsByType": { "*-corrupt-sawblade": 900, "*": 90 } },
+    "file": "game:entities/land/locust-hacked.json",
+    "side": "Server"
+  }
+]

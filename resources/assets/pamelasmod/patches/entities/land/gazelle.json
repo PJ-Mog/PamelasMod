@@ -1,0 +1,23 @@
+[
+  {
+    "op": "replace",
+    "path": "/server/behaviors/6/drops/1/quantity/avg",
+    "value": 2,
+    "file": "game:entities/land/gazelle.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/6/drops/2/quantity/avg",
+    "value": 1.5,
+    "file": "game:entities/land/gazelle.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/6/drops/2/quantity/var",
+    "value": 0.5,
+    "file": "game:entities/land/gazelle.json",
+    "side": "Server"
+  }
+]

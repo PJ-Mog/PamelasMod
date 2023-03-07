@@ -1,0 +1,9 @@
+[
+  {
+    "op": "replace",
+    "path": "/behaviors/0/properties/stackingCapacity",
+    "value": 256,
+    "file": "game:itemtypes/resource/ingot.json",
+    "side": "Server"
+  }
+]

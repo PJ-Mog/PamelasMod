@@ -1,0 +1,51 @@
+[
+  {
+    "op": "replace",
+    "path": "/attributes/tickGrowthProbability",
+    "value": 0.15,
+    "file": "game:blocktypes/plant/crop/cabbage.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/cropProps/totalGrowthMonths",
+    "value": 1.08,
+    "file": "game:blocktypes/plant/crop/cabbage.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/dropsByType/*/0/quantity/avg",
+    "value": 1,
+    "file": "game:blocktypes/plant/crop/cabbage.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/dropsByType/*-11/0/quantity/avg",
+    "value": 2,
+    "file": "game:blocktypes/plant/crop/cabbage.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/dropsByType/*-11/1/quantity/avg",
+    "value": 4,
+    "file": "game:blocktypes/plant/crop/cabbage.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/dropsByType/*-12/0/quantity/avg",
+    "value": 3,
+    "file": "game:blocktypes/plant/crop/cabbage.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/dropsByType/*-12/1/quantity/avg",
+    "value": 6,
+    "file": "game:blocktypes/plant/crop/cabbage.json",
+    "side": "Server"
+  }
+]

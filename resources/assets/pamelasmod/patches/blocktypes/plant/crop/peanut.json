@@ -1,0 +1,65 @@
+[
+  {
+    "op": "replace",
+    "path": "/attributes/tickGrowthProbability",
+    "value": 0.25,
+    "file": "game:blocktypes/plant/crop/peanut.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/cropProps/totalGrowthMonths",
+    "value": 1.08,
+    "file": "game:blocktypes/plant/crop/peanut.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/dropsByType/*/0/quantity/avg",
+    "value": 1,
+    "file": "game:blocktypes/plant/crop/peanut.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/dropsByType/*-8/0/quantity/avg",
+    "value": 3,
+    "file": "game:blocktypes/plant/crop/peanut.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/dropsByType/*-8/1/quantity/avg",
+    "value": 6,
+    "file": "game:blocktypes/plant/crop/peanut.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/dropsByType/*-8/1/quantity/var",
+    "value": 1,
+    "file": "game:blocktypes/plant/crop/peanut.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/dropsByType/*-9/0/quantity/avg",
+    "value": 4,
+    "file": "game:blocktypes/plant/crop/peanut.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/dropsByType/*-9/1/quantity/avg",
+    "value": 8,
+    "file": "game:blocktypes/plant/crop/peanut.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/dropsByType/*-9/1/quantity/var",
+    "value": 1,
+    "file": "game:blocktypes/plant/crop/peanut.json",
+    "side": "Server"
+  }
+]

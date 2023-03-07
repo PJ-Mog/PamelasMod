@@ -1,0 +1,9 @@
+[
+  {
+    "op": "replace",
+    "path": "/0/triesPerChunk",
+    "value": 0.25,
+    "file": "game:worldgen/deposits/soil/soil.json",
+    "side": "Server"
+  }
+]

@@ -1,0 +1,104 @@
+[
+  {
+    "op": "replace",
+    "path": "/attributes/tickGrowthProbability",
+    "value": 0.15,
+    "file": "game:blocktypes/plant/crop/rice.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/cropProps/totalGrowthMonths",
+    "value": 0.75,
+    "file": "game:blocktypes/plant/crop/rice.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/dropsByType/*-8",
+    "value": [
+      {
+        "type": "item",
+        "code": "seeds-rice",
+        "quantity": {
+          "avg": 2
+        }
+      },
+      {
+        "type": "item",
+        "code": "grain-rice",
+        "quantity": {
+          "avg": 4,
+          "var": 1
+        }
+      }
+    ],
+    "file": "game:blocktypes/plant/crop/rice.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/dropsByType/*-9",
+    "value": [
+      {
+        "type": "item",
+        "code": "seeds-rice",
+        "quantity": {
+          "avg": 3
+        }
+      },
+      {
+        "type": "item",
+        "code": "grain-rice",
+        "quantity": {
+          "avg": 6,
+          "var": 1
+        }
+      }
+    ],
+    "file": "game:blocktypes/plant/crop/rice.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/dropsByType/*/0/quantity/avg",
+    "value": 1,
+    "file": "game:blocktypes/plant/crop/rice.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/dropsByType/*-10/0/quantity/avg",
+    "value": 4,
+    "file": "game:blocktypes/plant/crop/rice.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/dropsByType/*-10/1/quantity/avg",
+    "value": 8,
+    "file": "game:blocktypes/plant/crop/rice.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/dropsByType/*-10/1/quantity/var",
+    "value": 1,
+    "file": "game:blocktypes/plant/crop/rice.json",
+    "side": "Server"
+  },
+  {
+    "op": "move",
+    "path": "/temp",
+    "fromPath": "/dropsByType/*",
+    "file": "game:blocktypes/plant/crop/rice.json",
+    "side": "Server"
+  },
+  {
+    "op": "move",
+    "path": "/dropsByType/*",
+    "fromPath": "/temp",
+    "file": "game:blocktypes/plant/crop/rice.json",
+    "side": "Server"
+  }
+]

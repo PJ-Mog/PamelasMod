@@ -1,0 +1,81 @@
+[
+  {
+    "op": "replace",
+    "path": "/attributes/tickGrowthProbability",
+    "value": 0.15,
+    "file": "game:blocktypes/plant/crop/spelt.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/cropProps/totalGrowthMonths",
+    "value": 0.75,
+    "file": "game:blocktypes/plant/crop/spelt.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/dropsByType/*-8",
+    "value": [
+      {
+        "type": "item",
+        "code": "seeds-spelt",
+        "quantity": {
+          "avg": 2
+        }
+      },
+      {
+        "type": "item",
+        "code": "grain-spelt",
+        "quantity": {
+          "avg": 4,
+          "var": 1
+        }
+      }
+    ],
+    "file": "game:blocktypes/plant/crop/spelt.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/dropsByType/*/0/quantity/avg",
+    "value": 1,
+    "file": "game:blocktypes/plant/crop/spelt.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/dropsByType/*-9/0/quantity/avg",
+    "value": 3,
+    "file": "game:blocktypes/plant/crop/spelt.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/dropsByType/*-9/1/quantity/avg",
+    "value": 6,
+    "file": "game:blocktypes/plant/crop/spelt.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/dropsByType/*-9/1/quantity/var",
+    "value": 1,
+    "file": "game:blocktypes/plant/crop/spelt.json",
+    "side": "Server"
+  },
+  {
+    "op": "move",
+    "path": "/temp",
+    "fromPath": "/dropsByType/*",
+    "file": "game:blocktypes/plant/crop/spelt.json",
+    "side": "Server"
+  },
+  {
+    "op": "move",
+    "path": "/dropsByType/*",
+    "fromPath": "/temp",
+    "file": "game:blocktypes/plant/crop/spelt.json",
+    "side": "Server"
+  }
+]

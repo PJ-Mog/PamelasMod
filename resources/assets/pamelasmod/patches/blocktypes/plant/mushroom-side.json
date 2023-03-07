@@ -1,0 +1,37 @@
+[
+  {
+    "op": "replace",
+    "path": "/attributes/nutritionPropsWhenInMeal/healthByType/*-funeralbell-*",
+    "value": 40,
+    "file": "game:blocktypes/plant/mushroom-side.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/nutritionPropsWhenInMeal/healthByType/*-pinkbonnet-*",
+    "value": 10,
+    "file": "game:blocktypes/plant/mushroom-side.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/drops/0/quantity/avg",
+    "value": 2,
+    "file": "game:blocktypes/plant/mushroom-side.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/nutritionPropsByType/*-funeralbell-*/health",
+    "value": 40,
+    "file": "game:blocktypes/plant/mushroom-side.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/nutritionPropsByType/*-pinkbonnet-*/health",
+    "value": 10,
+    "file": "game:blocktypes/plant/mushroom-side.json",
+    "side": "Server"
+  }
+]

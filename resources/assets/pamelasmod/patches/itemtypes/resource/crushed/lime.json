@@ -1,0 +1,9 @@
+[
+  {
+    "op": "replace",
+    "path": "/combustibleProps/smeltedRatio",
+    "value": 1,
+    "file": "game:itemtypes/resource/crushed/lime.json",
+    "side": "Server"
+  }
+]

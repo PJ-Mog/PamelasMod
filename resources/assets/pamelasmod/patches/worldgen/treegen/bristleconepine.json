@@ -1,0 +1,9 @@
+[
+  {
+    "op": "replace",
+    "path": "/treeBlocks/otherLogChance",
+    "value": 0.15,
+    "file": "game:worldgen/treegen/bristleconepine.json",
+    "side": "Server"
+  }
+]

@@ -1,0 +1,9 @@
+[
+  {
+    "op": "replace",
+    "path": "/sealHours",
+    "value": 48,
+    "file": "game:recipes/barrel/compost.json",
+    "side": "Server"
+  }
+]

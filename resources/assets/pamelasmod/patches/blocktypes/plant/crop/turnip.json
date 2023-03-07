@@ -1,0 +1,51 @@
+[
+  {
+    "op": "replace",
+    "path": "/attributes/tickGrowthProbability",
+    "value": 0.15,
+    "file": "game:blocktypes/plant/crop/turnip.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/cropProps/totalGrowthMonths",
+    "value": 0.5,
+    "file": "game:blocktypes/plant/crop/turnip.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/dropsByType/*/0/quantity/avg",
+    "value": 1,
+    "file": "game:blocktypes/plant/crop/turnip.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/dropsByType/*-4/0/quantity/avg",
+    "value": 2,
+    "file": "game:blocktypes/plant/crop/turnip.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/dropsByType/*-4/1/quantity/avg",
+    "value": 4,
+    "file": "game:blocktypes/plant/crop/turnip.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/dropsByType/*-5/0/quantity/avg",
+    "value": 3,
+    "file": "game:blocktypes/plant/crop/turnip.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/dropsByType/*-5/1/quantity/avg",
+    "value": 6,
+    "file": "game:blocktypes/plant/crop/turnip.json",
+    "side": "Server"
+  }
+]

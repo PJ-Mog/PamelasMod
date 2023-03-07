@@ -1,0 +1,9 @@
+[
+  {
+    "op": "replace",
+    "path": "/combustibleProps/burnDuration",
+    "value": 1300,
+    "file": "game:itemtypes/resource/charcoal.json",
+    "side": "Server"
+  }
+]

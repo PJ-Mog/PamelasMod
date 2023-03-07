@@ -1,0 +1,37 @@
+[
+  {
+    "op": "replace",
+    "path": "/server/behaviors/6/drops/0/quantity/var",
+    "value": 0,
+    "file": "game:entities/land/sheep-bighorn-male.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/6/drops/1/quantity/avg",
+    "value": 2,
+    "file": "game:entities/land/sheep-bighorn-male.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/6/drops/1/quantity/var",
+    "value": 0,
+    "file": "game:entities/land/sheep-bighorn-male.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/6/drops/2/quantity/avg",
+    "value": 2,
+    "file": "game:entities/land/sheep-bighorn-male.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/6/drops/2/quantity/var",
+    "value": 0,
+    "file": "game:entities/land/sheep-bighorn-male.json",
+    "side": "Server"
+  }
+]

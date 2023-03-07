@@ -1,0 +1,248 @@
+[
+  {
+    "op": "replace",
+    "path": "/server/behaviors/9/dropsByType/*-corrupt",
+    "value": [
+      {
+        "type": "item",
+        "code": "gear-temporal",
+        "quantity": {
+          "avg": 4,
+          "var": 0
+        }
+      },
+      {
+        "type": "item",
+        "code": "gear-rusty",
+        "dropModbyStat": "rustyGearDropRate",
+        "quantity": {
+          "avg": 5,
+          "var": 0
+        }
+      },
+      {
+        "type": "item",
+        "code": "fat",
+        "quantity": {
+          "avg": 6,
+          "var": 0
+        }
+      },
+      {
+        "type": "item",
+        "code": "flaxfibers",
+        "quantity": {
+          "avg": 8,
+          "var": 0
+        }
+      }
+    ],
+    "file": "game:entities/land/drifter.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/9/dropsByType/*-deep",
+    "value": [
+      {
+        "type": "item",
+        "code": "gear-temporal",
+        "quantity": {
+          "avg": 2,
+          "var": 0
+        }
+      },
+      {
+        "type": "item",
+        "code": "gear-rusty",
+        "dropModbyStat": "rustyGearDropRate",
+        "quantity": {
+          "avg": 3,
+          "var": 0
+        }
+      },
+      {
+        "type": "item",
+        "code": "fat",
+        "quantity": {
+          "avg": 3,
+          "var": 0
+        }
+      },
+      {
+        "type": "item",
+        "code": "flaxfibers",
+        "quantity": {
+          "avg": 4,
+          "var": 0
+        }
+      }
+    ],
+    "file": "game:entities/land/drifter.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/9/dropsByType/*-double-headed",
+    "value": [
+      {
+        "type": "item",
+        "code": "gear-temporal",
+        "quantity": {
+          "avg": 6,
+          "var": 0.4
+        }
+      },
+      {
+        "type": "item",
+        "code": "gear-rusty",
+        "dropModbyStat": "rustyGearDropRate",
+        "quantity": {
+          "avg": 8,
+          "var": 2.5
+        }
+      },
+      {
+        "type": "item",
+        "code": "fat",
+        "quantity": {
+          "avg": 10,
+          "var": 0
+        }
+      },
+      {
+        "type": "item",
+        "code": "flaxfibers",
+        "quantity": {
+          "avg": 12,
+          "var": 0
+        }
+      }
+    ],
+    "file": "game:entities/land/drifter.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/9/dropsByType/*-nightmare",
+    "value": [
+      {
+        "type": "item",
+        "code": "gear-temporal",
+        "quantity": {
+          "avg": 5,
+          "var": 0
+        }
+      },
+      {
+        "type": "item",
+        "code": "gear-rusty",
+        "dropModbyStat": "rustyGearDropRate",
+        "quantity": {
+          "avg": 6,
+          "var": 0
+        }
+      },
+      {
+        "type": "item",
+        "code": "fat",
+        "quantity": {
+          "avg": 8,
+          "var": 0
+        }
+      },
+      {
+        "type": "item",
+        "code": "flaxfibers",
+        "quantity": {
+          "avg": 10,
+          "var": 0
+        }
+      }
+    ],
+    "file": "game:entities/land/drifter.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/9/dropsByType/*-normal",
+    "value": [
+      {
+        "type": "item",
+        "code": "gear-temporal",
+        "quantity": {
+          "avg": 1,
+          "var": 0
+        }
+      },
+      {
+        "type": "item",
+        "code": "fat",
+        "quantity": {
+          "avg": 2,
+          "var": 0
+        }
+      },
+      {
+        "type": "item",
+        "code": "flaxfibers",
+        "quantity": {
+          "avg": 2,
+          "var": 0
+        }
+      },
+      {
+        "type": "item",
+        "code": "gear-rusty",
+        "dropModbyStat": "rustyGearDropRate",
+        "quantity": {
+          "avg": 1,
+          "var": 0
+        }
+      }
+    ],
+    "file": "game:entities/land/drifter.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/9/dropsByType/*-tainted",
+    "value": [
+      {
+        "type": "item",
+        "code": "gear-temporal",
+        "quantity": {
+          "avg": 3,
+          "var": 0
+        }
+      },
+      {
+        "type": "item",
+        "code": "gear-rusty",
+        "dropModbyStat": "rustyGearDropRate",
+        "quantity": {
+          "avg": 4,
+          "var": 0
+        }
+      },
+      {
+        "type": "item",
+        "code": "fat",
+        "quantity": {
+          "avg": 5,
+          "var": 0
+        }
+      },
+      {
+        "type": "item",
+        "code": "flaxfibers",
+        "quantity": {
+          "avg": 6,
+          "var": 0
+        }
+      }
+    ],
+    "file": "game:entities/land/drifter.json",
+    "side": "Server"
+  }
+]

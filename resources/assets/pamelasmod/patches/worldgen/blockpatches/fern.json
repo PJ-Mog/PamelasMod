@@ -1,0 +1,51 @@
+[
+  {
+    "op": "replace",
+    "path": "/0/chance",
+    "value": 1,
+    "file": "game:worldgen/blockpatches/fern.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/1/chance",
+    "value": 1,
+    "file": "game:worldgen/blockpatches/fern.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/2/chance",
+    "value": 1.25,
+    "file": "game:worldgen/blockpatches/fern.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/3/chance",
+    "value": 1,
+    "file": "game:worldgen/blockpatches/fern.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/4/chance",
+    "value": 1,
+    "file": "game:worldgen/blockpatches/fern.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/5/chance",
+    "value": 1,
+    "file": "game:worldgen/blockpatches/fern.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/6/chance",
+    "value": 1,
+    "file": "game:worldgen/blockpatches/fern.json",
+    "side": "Server"
+  }
+]

@@ -1,0 +1,135 @@
+[
+  {
+    "op": "replace",
+    "path": "/attributes/tickGrowthProbability",
+    "value": 0.25,
+    "file": "game:blocktypes/plant/crop/pineapple.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/cropProps/totalGrowthMonths",
+    "value": 4,
+    "file": "game:blocktypes/plant/crop/pineapple.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/dropsByType/*-11",
+    "file": "game:blocktypes/plant/crop/pineapple.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/dropsByType/*/0/quantity/avg",
+    "value": 1,
+    "file": "game:blocktypes/plant/crop/pineapple.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/dropsByType/*-12",
+    "value": [
+      {
+        "type": "item",
+        "code": "seeds-pineapple",
+        "quantity": {
+          "avg": 1
+        }
+      },
+      {
+        "type": "block",
+        "code": "pineapple",
+        "quantity": {
+          "avg": 2,
+          "var": 0
+        }
+      }
+    ],
+    "file": "game:blocktypes/plant/crop/pineapple.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/dropsByType/*-13",
+    "value": [
+      {
+        "type": "item",
+        "code": "seeds-pineapple",
+        "quantity": {
+          "avg": 2
+        }
+      },
+      {
+        "type": "block",
+        "code": "pineapple",
+        "quantity": {
+          "avg": 4,
+          "var": 0
+        }
+      }
+    ],
+    "file": "game:blocktypes/plant/crop/pineapple.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/dropsByType/*-14",
+    "value": [
+      {
+        "type": "item",
+        "code": "seeds-pineapple",
+        "quantity": {
+          "avg": 3
+        }
+      },
+      {
+        "type": "block",
+        "code": "pineapple",
+        "quantity": {
+          "avg": 6,
+          "var": 0
+        }
+      }
+    ],
+    "file": "game:blocktypes/plant/crop/pineapple.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/dropsByType/*-15",
+    "value": [
+      {
+        "type": "item",
+        "code": "seeds-pineapple",
+        "quantity": {
+          "avg": 4
+        }
+      },
+      {
+        "type": "block",
+        "code": "pineapple",
+        "quantity": {
+          "avg": 8,
+          "var": 0
+        }
+      }
+    ],
+    "file": "game:blocktypes/plant/crop/pineapple.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/dropsByType/*-16/0/quantity/avg",
+    "value": 5,
+    "file": "game:blocktypes/plant/crop/pineapple.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/dropsByType/*-16/1/quantity/avg",
+    "value": 10,
+    "file": "game:blocktypes/plant/crop/pineapple.json",
+    "side": "Server"
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "op": "replace",
+    "path": "/grindingPropsByType/*-chalk/grindedStack/stacksize",
+    "value": 2,
+    "file": "game:itemtypes/resource/stone.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/grindingPropsByType/*-limestone/grindedStack/stacksize",
+    "value": 2,
+    "file": "game:itemtypes/resource/stone.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/grindingPropsByType/*marble*/grindedStack/stacksize",
+    "value": 2,
+    "file": "game:itemtypes/resource/stone.json",
+    "side": "Server"
+  }
+]

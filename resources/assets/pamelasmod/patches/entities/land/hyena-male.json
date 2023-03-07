@@ -1,0 +1,9 @@
+[
+  {
+    "op": "replace",
+    "path": "/server/behaviors/6/drops/1/quantity/avg",
+    "value": 2,
+    "file": "game:entities/land/hyena-male.json",
+    "side": "Server"
+  }
+]

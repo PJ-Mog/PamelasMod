@@ -1,0 +1,9 @@
+[
+  {
+    "op": "replace",
+    "path": "/sealHours",
+    "value": 36,
+    "file": "game:recipes/barrel/cheesemaking/curdledmilk-alt.json",
+    "side": "Server"
+  }
+]

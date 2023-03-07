@@ -1,0 +1,16 @@
+[
+  {
+    "op": "replace",
+    "file": "game:blocktypes/clay/bloomerybase.json",
+    "path": "/drops/0/quantity",
+    "value": { "avg": 8, "var": 0 },
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "file": "game:blocktypes/clay/bloomerychimney.json",
+    "path": "/drops/0/quantity",
+    "value": { "avg": 4, "var": 0 },
+    "side": "Server"
+  }
+]

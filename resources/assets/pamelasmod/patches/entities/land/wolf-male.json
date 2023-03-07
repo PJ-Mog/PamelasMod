@@ -1,0 +1,16 @@
+[
+  {
+    "op": "replace",
+    "path": "/server/behaviors/6/drops/1/quantity/avg",
+    "value": 2,
+    "file": "game:entities/land/wolf-male.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/6/drops/2/quantity/avg",
+    "value": 2,
+    "file": "game:entities/land/wolf-male.json",
+    "side": "Server"
+  }
+]

@@ -1,0 +1,9 @@
+[
+  {
+    "op": "replace",
+    "path": "/0/childDeposits/0/triesPerChunk",
+    "value": 30,
+    "file": "game:worldgen/deposits/mineralore/olivine.json",
+    "side": "Server"
+  }
+]

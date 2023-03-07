@@ -1,0 +1,30 @@
+[
+  {
+    "op": "replace",
+    "path": "/server/behaviors/6/drops/0/quantityByType/*/avg",
+    "value": 4,
+    "file": "game:entities/land/chicken-rooster.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/6/drops/0/quantityByType/*/var",
+    "value": 0,
+    "file": "game:entities/land/chicken-rooster.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/6/drops/0/quantityByType/*-roosterpoult/avg",
+    "value": 2,
+    "file": "game:entities/land/chicken-rooster.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/6/drops/0/quantityByType/*-roosterpoult/var",
+    "value": 0,
+    "file": "game:entities/land/chicken-rooster.json",
+    "side": "Server"
+  }
+]

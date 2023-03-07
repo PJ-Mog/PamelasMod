@@ -1,0 +1,16 @@
+[
+  {
+    "op": "replace",
+    "path": "/dropsByType/*/0/quantity/avg",
+    "value": 2,
+    "file": "game:blocktypes/plant/tallgrass.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/dropsByType/*/1/quantity/avg",
+    "value": 3,
+    "file": "game:blocktypes/plant/tallgrass.json",
+    "side": "Server"
+  }
+]

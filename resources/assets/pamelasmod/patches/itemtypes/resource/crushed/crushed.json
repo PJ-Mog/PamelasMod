@@ -1,0 +1,57 @@
+[
+  {
+    "op": "add",
+    "path": "/combustiblePropsByType/*-cinnabar",
+    "value": {
+      "meltingPoint": 1350,
+      "meltingDuration": 30,
+      "smeltedRatio": 4,
+      "smeltedStack": {
+        "type": "block",
+        "code": "glass-red",
+        "stacksize": 2
+      }
+    },
+    "file": "game:itemtypes/resource/crushed/crushed.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/combustiblePropsByType/*-lapislazuli",
+    "value": {
+      "meltingPoint": 1400,
+      "meltingDuration": 30,
+      "smeltedRatio": 8,
+      "smeltedStack": {
+        "type": "block",
+        "code": "glass-blue",
+        "stacksize": 4
+      }
+    },
+    "file": "game:itemtypes/resource/crushed/crushed.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/combustiblePropsByType/*-sulfur",
+    "value": {
+      "meltingPoint": 1400,
+      "meltingDuration": 30,
+      "smeltedRatio": 8,
+      "smeltedStack": {
+        "type": "block",
+        "code": "glass-yellow",
+        "stacksize": 4
+      }
+    },
+    "file": "game:itemtypes/resource/crushed/crushed.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/combustiblePropsByType/*-olivine/smeltedStack/stacksize",
+    "value": 4,
+    "file": "game:itemtypes/resource/crushed/crushed.json",
+    "side": "Server"
+  }
+]

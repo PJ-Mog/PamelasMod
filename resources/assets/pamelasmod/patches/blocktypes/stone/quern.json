@@ -1,0 +1,16 @@
+[
+  {
+    "op": "add",
+    "path": "/variantgroups/0/states/-",
+    "value": "claystone",
+    "file": "game:blocktypes/stone/quern.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/variantgroups/0/states/-",
+    "value": "slate",
+    "file": "game:blocktypes/stone/quern.json",
+    "side": "Server"
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "op": "replace",
+    "path": "/server/behaviors/6/drops/0/quantity/avg",
+    "value": 3,
+    "file": "game:entities/land/hare-female.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/6/drops/1/quantity/avg",
+    "value": 1,
+    "file": "game:entities/land/hare-female.json",
+    "side": "Server"
+  }
+]

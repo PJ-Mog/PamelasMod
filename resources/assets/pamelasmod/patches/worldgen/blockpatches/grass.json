@@ -1,0 +1,23 @@
+[
+  {
+    "op": "replace",
+    "path": "/0/chance",
+    "value": 12,
+    "file": "game:worldgen/blockpatches/grass.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/1/chance",
+    "value": 3,
+    "file": "game:worldgen/blockpatches/grass.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/2/chance",
+    "value": 3,
+    "file": "game:worldgen/blockpatches/grass.json",
+    "side": "Server"
+  }
+]

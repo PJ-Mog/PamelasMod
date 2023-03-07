@@ -1,0 +1,81 @@
+[
+  {
+    "op": "remove",
+    "path": "/frostable",
+    "file": "game:blocktypes/plant/fruittreebranch.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/shapes/branch-e",
+    "file": "game:blocktypes/plant/fruittreebranch.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/shapes/branch-e-end",
+    "file": "game:blocktypes/plant/fruittreebranch.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/shapes/branch-n",
+    "file": "game:blocktypes/plant/fruittreebranch.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/shapes/branch-n-end",
+    "file": "game:blocktypes/plant/fruittreebranch.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/shapes/branch-s",
+    "file": "game:blocktypes/plant/fruittreebranch.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/shapes/branch-s-end",
+    "file": "game:blocktypes/plant/fruittreebranch.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/shapes/branch-ud-end",
+    "file": "game:blocktypes/plant/fruittreebranch.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/shapes/branch-w",
+    "file": "game:blocktypes/plant/fruittreebranch.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/shapes/branch-w-end",
+    "file": "game:blocktypes/plant/fruittreebranch.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/shapes/branch-ns",
+    "value": {
+      "base": "block/plant/fruittree/branch-hor",
+      "rotateY": 90
+    },
+    "file": "game:blocktypes/plant/fruittreebranch.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/shapes/branch-we",
+    "value": {
+      "base": "block/plant/fruittree/branch-hor"
+    },
+    "file": "game:blocktypes/plant/fruittreebranch.json",
+    "side": "Server"
+  }
+]
