@@ -1,5 +1,6 @@
 using Vintagestory.API.Common;
 using Vintagestory.API.MathTools;
+using Vintagestory.API.Server;
 using Vintagestory.GameContent;
 
 namespace PamelasMod {
@@ -10,8 +11,20 @@ namespace PamelasMod {
 
     public override void AssetsFinalize(ICoreAPI api) {
       base.AssetsFinalize(api);
+      if (api.Side != EnumAppSide.Server) {
+        return;
+      }
+      var sapi = (ICoreServerAPI)api;
+      SetWildCropDropMultiplier(sapi);
+      SetMaxStackSize(sapi);
+    }
 
-      foreach (var obj in api.World.Collectibles) {
+    private void SetWildCropDropMultiplier(ICoreServerAPI sapi) {
+      BlockCrop.WildCropDropMul = 1.0f;
+    }
+
+    private void SetMaxStackSize(ICoreServerAPI sapi) {
+      foreach (var obj in sapi.World.Collectibles) {
         SetMaxStackSize(obj);
       }
     }
