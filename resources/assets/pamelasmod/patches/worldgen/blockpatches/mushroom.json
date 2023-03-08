@@ -15,6 +15,13 @@
   },
   {
     "op": "replace",
+    "path": "/2/chance",
+    "value": 4,
+    "file": "game:worldgen/blockpatches/mushroom.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
     "path": "/3/chance",
     "value": 4,
     "file": "game:worldgen/blockpatches/mushroom.json",
@@ -23,7 +30,7 @@
   {
     "op": "replace",
     "path": "/4/chance",
-    "value": 6,
+    "value": 4,
     "file": "game:worldgen/blockpatches/mushroom.json",
     "side": "Server"
   },
@@ -71,57 +78,134 @@
   },
   {
     "op": "replace",
+    "path": "/11/chance",
+    "value": 4,
+    "file": "game:worldgen/blockpatches/mushroom.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
     "path": "/12/chance",
-    "value": 3,
+    "value": 4,
     "file": "game:worldgen/blockpatches/mushroom.json",
     "side": "Server"
   },
   {
     "op": "replace",
     "path": "/13/chance",
-    "value": 8,
+    "value": 4,
+    "file": "game:worldgen/blockpatches/mushroom.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/14/chance",
+    "value": 4,
+    "file": "game:worldgen/blockpatches/mushroom.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/15/chance",
+    "value": 4,
     "file": "game:worldgen/blockpatches/mushroom.json",
     "side": "Server"
   },
   {
     "op": "replace",
     "path": "/16/chance",
-    "value": 8,
+    "value": 4,
     "file": "game:worldgen/blockpatches/mushroom.json",
     "side": "Server"
   },
   {
     "op": "replace",
     "path": "/17/chance",
-    "value": 8,
+    "value": 4,
+    "file": "game:worldgen/blockpatches/mushroom.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/18/chance",
+    "value": 4,
     "file": "game:worldgen/blockpatches/mushroom.json",
     "side": "Server"
   },
   {
     "op": "replace",
     "path": "/19/chance",
-    "value": 8,
+    "value": 4,
+    "file": "game:worldgen/blockpatches/mushroom.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/20/chance",
+    "value": 4,
     "file": "game:worldgen/blockpatches/mushroom.json",
     "side": "Server"
   },
   {
     "op": "replace",
     "path": "/21/chance",
-    "value": 8,
+    "value": 4,
+    "file": "game:worldgen/blockpatches/mushroom.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/21/placement",
+    "value": "UnderTrees",
+    "file": "game:worldgen/blockpatches/mushroom.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/21/treeType",
+    "value": "Any",
     "file": "game:worldgen/blockpatches/mushroom.json",
     "side": "Server"
   },
   {
     "op": "replace",
     "path": "/22/chance",
-    "value": 8,
+    "value": 4,
+    "file": "game:worldgen/blockpatches/mushroom.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/22/placement",
+    "value": "UnderTrees",
+    "file": "game:worldgen/blockpatches/mushroom.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/22/treeType",
+    "value": "Any",
     "file": "game:worldgen/blockpatches/mushroom.json",
     "side": "Server"
   },
   {
     "op": "replace",
     "path": "/23/chance",
-    "value": 8,
+    "value": 4,
+    "file": "game:worldgen/blockpatches/mushroom.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/23/placement",
+    "value": "UnderTrees",
+    "file": "game:worldgen/blockpatches/mushroom.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/23/treeType",
+    "value": "Any",
     "file": "game:worldgen/blockpatches/mushroom.json",
     "side": "Server"
   },
@@ -135,56 +219,77 @@
   {
     "op": "replace",
     "path": "/25/chance",
-    "value": 8,
+    "value": 4,
+    "file": "game:worldgen/blockpatches/mushroom.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/26/chance",
+    "value": 4,
     "file": "game:worldgen/blockpatches/mushroom.json",
     "side": "Server"
   },
   {
     "op": "replace",
     "path": "/27/chance",
-    "value": 8,
+    "value": 4,
     "file": "game:worldgen/blockpatches/mushroom.json",
     "side": "Server"
   },
   {
     "op": "replace",
     "path": "/28/chance",
-    "value": 8,
+    "value": 4,
+    "file": "game:worldgen/blockpatches/mushroom.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/29/chance",
+    "value": 4,
     "file": "game:worldgen/blockpatches/mushroom.json",
     "side": "Server"
   },
   {
     "op": "replace",
     "path": "/30/chance",
-    "value": 8,
+    "value": 4,
     "file": "game:worldgen/blockpatches/mushroom.json",
     "side": "Server"
   },
   {
     "op": "replace",
     "path": "/31/chance",
-    "value": 8,
+    "value": 4,
+    "file": "game:worldgen/blockpatches/mushroom.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/32/chance",
+    "value": 4,
     "file": "game:worldgen/blockpatches/mushroom.json",
     "side": "Server"
   },
   {
     "op": "replace",
     "path": "/33/chance",
-    "value": 8,
+    "value": 4,
     "file": "game:worldgen/blockpatches/mushroom.json",
     "side": "Server"
   },
   {
     "op": "replace",
     "path": "/34/chance",
-    "value": 8,
+    "value": 4,
     "file": "game:worldgen/blockpatches/mushroom.json",
     "side": "Server"
   },
   {
     "op": "replace",
     "path": "/35/chance",
-    "value": 8,
+    "value": 4,
     "file": "game:worldgen/blockpatches/mushroom.json",
     "side": "Server"
   }
