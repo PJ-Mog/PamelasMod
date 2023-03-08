@@ -9,6 +9,8 @@ namespace PamelasMod {
       base.Start(api);
     }
 
+    public override double ExecuteOrder() => double.MaxValue;
+
     public override void AssetsFinalize(ICoreAPI api) {
       base.AssetsFinalize(api);
       if (api.Side != EnumAppSide.Server) {
