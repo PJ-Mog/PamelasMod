@@ -33,6 +33,8 @@ namespace PamelasMod {
 
     private void SetMaxStackSize(CollectibleObject obj) {
       switch (obj) {
+        case CollectibleObject o when o.Durability != 0:
+          break;
         case ItemPlantableSeed a:
         case ItemTreeSeed b:
         case CollectibleObject c when c.Code.Path.Contains("flour"):
