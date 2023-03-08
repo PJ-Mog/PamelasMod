@@ -161,6 +161,13 @@
     "side": "Server"
   },
   {
+    "op": "replace",
+    "path": "/21/maxForest",
+    "value": 0.4,
+    "file": "game:worldgen/blockpatches/mushroom.json",
+    "side": "Server"
+  },
+  {
     "op": "add",
     "path": "/21/treeType",
     "value": "Any",
@@ -190,6 +197,13 @@
   },
   {
     "op": "replace",
+    "path": "/22/maxForest",
+    "value": 0.4,
+    "file": "game:worldgen/blockpatches/mushroom.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
     "path": "/23/chance",
     "value": 4,
     "file": "game:worldgen/blockpatches/mushroom.json",
@@ -206,6 +220,13 @@
     "op": "add",
     "path": "/23/treeType",
     "value": "Any",
+    "file": "game:worldgen/blockpatches/mushroom.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/23/maxForest",
+    "value": 0.4,
     "file": "game:worldgen/blockpatches/mushroom.json",
     "side": "Server"
   },
