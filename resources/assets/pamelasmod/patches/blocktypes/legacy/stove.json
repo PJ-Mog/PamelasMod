@@ -1,0 +1,22 @@
+[
+  {
+    "op": "remove",
+    "path": "/attributes/handbook",
+    "file": "game:blocktypes/legacy/stove.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/creativeinventory/general",
+    "value": [ "stove-unlit-north", "stove-lit-north" ],
+    "file":"game:blocktypes/legacy/stove.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/creativeinventory/decorative",
+    "value": [ "stove-unlit-north", "stove-lit-north" ],
+    "file":"game:blocktypes/legacy/stove.json",
+    "side": "Server"
+  }
+]

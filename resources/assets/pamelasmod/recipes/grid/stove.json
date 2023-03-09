@@ -1,0 +1,24 @@
+[
+  {
+    "ingredientPattern": "CCC,CTC,CCC",
+    "ingredients": {
+      "C": { "type": "block", "code": "game:cobblestone-*", "quantity": 1 },
+      "T": { "type": "block", "code": "game:torch-basic-extinct-up", "quantity": 1 }
+    },
+    "width": 3,
+    "height": 3,
+    "recipeGroup": 1,
+    "output": { "type": "block", "code": "game:stove-unlit-north", "quantity": 1 }
+  },
+  {
+    "ingredientPattern": "CCC,CTC,CCC",
+    "ingredients": {
+      "C": { "type": "block", "code": "game:cobblestone-*", "quantity": 1 },
+      "T": { "type": "block", "code": "game:torch-basic-lit-up", "quantity": 1 }
+    },
+    "width": 3,
+    "height": 3,
+    "recipeGroup": 1,
+    "output": { "type": "block", "code": "game:stove-lit-north", "quantity": 1 }
+  }
+]

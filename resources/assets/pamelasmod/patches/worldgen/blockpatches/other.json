@@ -1,14 +1,14 @@
 [
   {
     "op": "replace",
-    "path": "/18/chance",
+    "path": "/16/chance",
     "value": 0.15,
     "file": "game:worldgen/blockpatches/other.json",
     "side": "Server"
   },
   {
     "op": "replace",
-    "path": "/23/chance",
+    "path": "/21/chance",
     "value": 0.5,
     "file": "game:worldgen/blockpatches/other.json",
     "side": "Server"
