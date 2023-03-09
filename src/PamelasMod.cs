@@ -7,6 +7,9 @@ namespace PamelasMod {
   public class PamelasMod : ModSystem {
     public override void Start(ICoreAPI api) {
       base.Start(api);
+#if DEBUG
+      Vintagestory.API.Config.RuntimeEnv.DebugOutOfRangeBlockAccess = true;
+#endif
     }
 
     public override double ExecuteOrder() => double.MaxValue;
