@@ -1,0 +1,9 @@
+[
+  {
+    "op": "replace",
+    "path": "/ingredientPattern",
+    "value": "WWW,W_W,WWW",
+    "file": "game:recipes/grid/chest.json",
+    "side": "Server"
+  }
+]
