@@ -12,5 +12,11 @@
     "value": 3,
     "file": "game:blocktypes/plant/tallgrass.json",
     "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/dropsByType/tallgrass-eaten-*",
+    "file": "game:blocktypes/plant/tallgrass.json",
+    "side": "Server"
   }
 ]
