@@ -5,7 +5,9 @@ using Vintagestory.GameContent;
 
 namespace PamelasMod {
   public class PamelasMod : ModSystem {
-    public override double ExecuteOrder() => double.MaxValue;
+    public override double ExecuteOrder() {
+      return double.MaxValue;
+    }
 
     public override void AssetsFinalize(ICoreAPI api) {
       base.AssetsFinalize(api);
@@ -29,23 +31,22 @@ namespace PamelasMod {
     }
 
     private void SetMaxStackSize(CollectibleObject obj) {
-      switch (obj) {
-        case CollectibleObject o when o.Durability != 0:
-          break;
-        case ItemPlantableSeed a:
-        case ItemTreeSeed b:
-        case CollectibleObject c when c.Code.Path.Contains("flour"):
-        case CollectibleObject d when d.Code.Path.Contains("feather"):
-          obj.MaxStackSize = GameMath.Max(512, obj.MaxStackSize);
-          break;
-        case ItemRustyGear a:
-        case ItemTemporalGear b:
-          obj.MaxStackSize = GameMath.Max(5000, obj.MaxStackSize);
-          break;
-        default:
-          obj.MaxStackSize = GameMath.Max(256, obj.MaxStackSize);
-          break;
+      // Not using switch statement in order to target C#5.0 so that the game will load and compile raw .cs file
+      if (obj.Durability != 0) {
+        return;
       }
+
+      if (obj is ItemRustyGear || obj is ItemTemporalGear) {
+        obj.MaxStackSize = GameMath.Max(5000, obj.MaxStackSize);
+        return;
+      }
+
+      if (obj is ItemPlantableSeed || obj is ItemTreeSeed || obj.Code.Path.Contains("flour") || obj.Code.Path.Contains("feather")) {
+        obj.MaxStackSize = GameMath.Max(512, obj.MaxStackSize);
+        return;
+      }
+
+      obj.MaxStackSize = GameMath.Max(256, obj.MaxStackSize);
     }
 
     private void SetLootVesselDrops(ICoreServerAPI sapi) {
@@ -65,7 +66,7 @@ namespace PamelasMod {
         })
       });
 
-      BlockLootVessel.lootLists["food"] = LootList.Create(4f, new LootItem[]
+      BlockLootVessel.lootLists["food"] = LootList.Create(2f, new LootItem[]
       {
         LootItem.Item(3f, 16f, 32f, new string[]
         {
@@ -89,7 +90,7 @@ namespace PamelasMod {
         })
       });
 
-      BlockLootVessel.lootLists["forage"] = LootList.Create(4f, new LootItem[]
+      BlockLootVessel.lootLists["forage"] = LootList.Create(2f, new LootItem[]
       {
         LootItem.Item(4f, 32f, 64f, new string[]
         {
@@ -179,13 +180,13 @@ namespace PamelasMod {
 
       BlockLootVessel.lootLists["tool"] = LootList.Create(3f, new LootItem[]
       {
-        LootItem.Item(1f, 1f, 1f, new string[]
+        LootItem.Item(2f, 1f, 1f, new string[]
         {
           "axe-obsidian",
           "shovel-obsidian",
           "knife-obsidian"
         }),
-        LootItem.Item(3f, 1f, 1f, new string[]
+        LootItem.Item(2f, 1f, 1f, new string[]
         {
           "axe-copper",
           "shovel-copper",
@@ -196,12 +197,7 @@ namespace PamelasMod {
           "knife-copper",
           "blade-falx-copper"
         }),
-        LootItem.Item(3f, 1f, 1f, new string[]
-        {
-          "pickaxe-copper",
-          "pickaxe-tinbronze"
-        }),
-        LootItem.Item(3f, 1f, 1f, new string[]
+        LootItem.Item(1f, 1f, 1f, new string[]
         {
           "axe-tinbronze",
           "shovel-tinbronze",
@@ -212,19 +208,27 @@ namespace PamelasMod {
           "knife-tinbronze",
           "blade-falx-tinbronze"
         }),
+        LootItem.Item(2f, 1f, 1f, new string[]
+        {
+          "pickaxe-copper"
+        }),
+        LootItem.Item(1f, 1f, 1f, new string[]
+        {
+          "pickaxe-tinbronze"
+        }),
         LootItem.Item(1f, 8f, 16f, new string[]
         {
           "gear-rusty"
         })
       });
 
-      BlockLootVessel.lootLists["farming"] = LootList.Create(4f, new LootItem[]
+      BlockLootVessel.lootLists["farming"] = LootList.Create(2f, new LootItem[]
       {
         LootItem.Item(1f, 1f, 1f, new string[]
         {
           "linensack"
         }),
-        LootItem.Item(0.25f, 32f, 64f, new string[]
+        LootItem.Item(0.125f, 32f, 64f, new string[]
         {
           "feather"
         }),

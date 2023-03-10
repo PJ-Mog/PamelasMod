@@ -2,6 +2,7 @@
   <PropertyGroup>
     <TargetFramework>net462</TargetFramework>
     <TargetGameVersion>1.18</TargetGameVersion>
+    <LangVersion>5</LangVersion>
     <EnvironmentStyle>Rice</EnvironmentStyle>
     <!-- <EnvironmentStyle>Copygirl</EnvironmentStyle> -->
     <VSPath Condition="'$(EnvironmentStyle)' == 'Copygirl'">$(VINTAGE_STORY)</VSPath>
