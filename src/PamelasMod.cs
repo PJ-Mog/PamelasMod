@@ -90,7 +90,7 @@ namespace PamelasMod {
         })
       });
 
-      BlockLootVessel.lootLists["forage"] = LootList.Create(2f, new LootItem[]
+      BlockLootVessel.lootLists["forage"] = LootList.Create(4f, new LootItem[]
       {
         LootItem.Item(4f, 32f, 64f, new string[]
         {
@@ -106,7 +106,7 @@ namespace PamelasMod {
           "clay-blue",
           "clay-fire"
         }),
-        LootItem.Item(2f, 16f, 32f, new string[]
+        LootItem.Item(3f, 16f, 32f, new string[]
         {
           "stone-andesite",
           "stone-chalk",
