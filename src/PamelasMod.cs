@@ -76,6 +76,20 @@ namespace PamelasMod {
           "grain-rice",
           "grain-rye"
         }),
+        LootItem.Item(3f, 8f, 16f, new string[]
+        {
+          "fruit-redapple",
+          "fruit-pinkapple",
+          "fruit-yellowapple",
+          "fruit-cherry",
+          "fruit-peach",
+          "fruit-pear",
+          "fruit-orange",
+          "fruit-mango",
+          "fruit-breadfruit",
+          "fruit-lychee",
+          "fruit-pomegranate"
+        }),
         LootItem.Item(0.1f, 1f, 1f, new string[]
         {
           "tuningcylinder-1",
@@ -184,7 +198,7 @@ namespace PamelasMod {
         {
           "axe-obsidian",
           "shovel-obsidian",
-          "knife-obsidian"
+          "knife-generic-obsidian",
         }),
         LootItem.Item(2f, 1f, 1f, new string[]
         {
@@ -192,9 +206,9 @@ namespace PamelasMod {
           "shovel-copper",
           "knife-copper",
           "scythe-copper",
-          "axe-copper",
+          "axe-felling-copper",
           "shovel-copper",
-          "knife-copper",
+          "knife-generic-copper",
           "blade-falx-copper"
         }),
         LootItem.Item(1f, 1f, 1f, new string[]
@@ -203,16 +217,16 @@ namespace PamelasMod {
           "shovel-tinbronze",
           "knife-tinbronze",
           "scythe-tinbronze",
-          "axe-tinbronze",
+          "axe-felling-tinbronze",
           "shovel-tinbronze",
-          "knife-tinbronze",
+          "knife-generic-tinbronze",
           "blade-falx-tinbronze"
         }),
-        LootItem.Item(2f, 1f, 1f, new string[]
+        LootItem.Item(1f, 1f, 1f, new string[]
         {
           "pickaxe-copper"
         }),
-        LootItem.Item(1f, 1f, 1f, new string[]
+        LootItem.Item(0.5f, 1f, 1f, new string[]
         {
           "pickaxe-tinbronze"
         }),
