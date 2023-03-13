@@ -1,0 +1,9 @@
+[
+  {
+    "op": "replace",
+    "path": "/drops/1/quantity/avg",
+    "value": 2.5,
+    "file": "game:blocktypes/plant/leaves/branchy.json",
+    "side": "Server"
+  }
+]
