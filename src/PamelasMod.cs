@@ -89,18 +89,6 @@ namespace PamelasMod {
           "fruit-breadfruit",
           "fruit-lychee",
           "fruit-pomegranate"
-        }),
-        LootItem.Item(0.1f, 1f, 1f, new string[]
-        {
-          "tuningcylinder-1",
-          "tuningcylinder-2",
-          "tuningcylinder-3",
-          "tuningcylinder-4",
-          "tuningcylinder-5",
-          "tuningcylinder-6",
-          "tuningcylinder-7",
-          "tuningcylinder-8",
-          "tuningcylinder-9"
         })
       });
 
