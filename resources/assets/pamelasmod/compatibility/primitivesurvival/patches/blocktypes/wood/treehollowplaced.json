@@ -1,0 +1,22 @@
+[
+  {
+    "op": "replace",
+    "path": "/attributes/quantitySlots/base",
+    "value": 12,
+    "file": "primitivesurvival:blocktypes/wood/treehollowplaced.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "primitivesurvival" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/quantitySlots/up",
+    "value": 12,
+    "file": "primitivesurvival:blocktypes/wood/treehollowplaced.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "primitivesurvival" }
+    ]
+  }
+]

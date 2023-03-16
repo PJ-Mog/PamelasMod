@@ -1,0 +1,62 @@
+[
+  {
+    "op": "replace",
+    "path": "/transitionablePropsByType/*-partbaked/0/freshHours/avg",
+    "value": 360,
+    "file": "primitivesurvival:itemtypes/fishing/fishfillet.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "primitivesurvival" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/transitionablePropsByType/*-partbaked/0/spoilHours/avg",
+    "value": 360,
+    "file": "primitivesurvival:itemtypes/fishing/fishfillet.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "primitivesurvival" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/transitionablePropsByType/*-cooked/0/freshHours/avg",
+    "value": 360,
+    "file": "primitivesurvival:itemtypes/fishing/fishfillet.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "primitivesurvival" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/transitionablePropsByType/*-cooked/0/spoilHours/avg",
+    "value": 360,
+    "file": "primitivesurvival:itemtypes/fishing/fishfillet.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "primitivesurvival" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/transitionablePropsByType/*-raw/0/freshHours/avg",
+    "value": 480,
+    "file": "primitivesurvival:itemtypes/fishing/fishfillet.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "primitivesurvival" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/transitionablePropsByType/*-raw/0/spoilHours/avg",
+    "value": 480,
+    "file": "primitivesurvival:itemtypes/fishing/fishfillet.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "primitivesurvival" }
+    ]
+  }
+]

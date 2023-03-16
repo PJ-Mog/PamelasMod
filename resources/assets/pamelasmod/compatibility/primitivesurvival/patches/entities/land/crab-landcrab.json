@@ -1,0 +1,22 @@
+[
+  {
+    "op": "replace",
+    "path": "/server/behaviors/5/drops/0/quantity/avg",
+    "value": 8,
+    "file": "primitivesurvival:entities/land/crab-landcrab.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "primitivesurvival" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/5/drops/0/quantity/var",
+    "value": 0,
+    "file": "primitivesurvival:entities/land/crab-landcrab.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "primitivesurvival" }
+    ]
+  }
+]

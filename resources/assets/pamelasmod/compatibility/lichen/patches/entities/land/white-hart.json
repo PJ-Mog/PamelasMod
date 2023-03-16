@@ -1,0 +1,42 @@
+[
+  {
+    "op": "replace",
+    "path": "/server/behaviors/6/drops/0/quantity/avg",
+    "value": 15,
+    "file": "lichen:entities/land/white-hart.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "lichen" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/6/drops/0/quantity/var",
+    "value": 0,
+    "file": "lichen:entities/land/white-hart.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "lichen" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/6/drops/1/quantity/avg",
+    "value": 3,
+    "file": "lichen:entities/land/white-hart.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "lichen" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/6/drops/1/quantity/var",
+    "value": 0,
+    "file": "lichen:entities/land/white-hart.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "lichen" }
+    ]
+  }
+]

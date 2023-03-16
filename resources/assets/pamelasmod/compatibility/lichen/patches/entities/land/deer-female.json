@@ -1,0 +1,56 @@
+[
+  {
+    "op": "replace",
+    "path": "/server/behaviors/6/drops/0/quantity/avg",
+    "value": 12,
+    "file": "lichen:entities/land/deer-female.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "lichen" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/6/drops/0/quantity/var",
+    "value": 0,
+    "file": "lichen:entities/land/deer-female.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "lichen" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/6/drops/1/quantity/avg",
+    "value": 2,
+    "file": "lichen:entities/land/deer-female.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "lichen" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/6/drops/1/quantity/var",
+    "value": 0,
+    "file": "lichen:entities/land/deer-female.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "lichen" }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/server/behaviors/6/drops/-",
+    "value": {
+      "type": "item",
+      "code": "game:fat",
+      "quantity": { "avg": 4, "var": 0 }
+    },
+    "file": "lichen:entities/land/deer-female.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "lichen" }
+    ]
+  }
+]
