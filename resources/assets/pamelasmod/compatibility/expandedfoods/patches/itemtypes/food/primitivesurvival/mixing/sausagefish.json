@@ -1,0 +1,24 @@
+[
+  {
+    "op": "replace",
+    "path": "/transitionablePropsByType/*-raw/1/freshHours/avg",
+    "value": 480,
+    "file": "expandedfoods:itemtypes/food/primitivesurvival/mixing/sausagefish.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "expandedfoods" },
+      { "modid": "primitivesurvival" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/transitionablePropsByType/*-dried/0/freshHours/avg",
+    "value": 480,
+    "file": "expandedfoods:itemtypes/food/primitivesurvival/mixing/sausagefish.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "expandedfoods" },
+      { "modid": "primitivesurvival" }
+    ]
+  }
+]

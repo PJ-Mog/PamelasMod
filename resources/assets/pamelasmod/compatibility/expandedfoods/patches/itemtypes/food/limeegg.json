@@ -1,0 +1,12 @@
+[
+  {
+    "op": "replace",
+    "path": "/transitionableProps/0/freshHours/avg",
+    "value": 360,
+    "file": "expandedfoods:itemtypes/food/limeegg.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "expandedfoods" }
+    ]
+  }
+]

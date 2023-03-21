@@ -1,0 +1,62 @@
+[
+  {
+    "op": "replace",
+    "path": "/transitionablePropsByType/*-oiled/0/freshHours/avg",
+    "value": 180,
+    "file": "expandedfoods:itemtypes/food/mixing/breadedmushroom.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "expandedfoods" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/transitionablePropsByType/*-raw/0/freshHours/avg",
+    "value": 180,
+    "file": "expandedfoods:itemtypes/food/mixing/breadedmushroom.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "expandedfoods" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/transitionablePropsByType/*-partbaked/0/freshHours/avg",
+    "value": 360,
+    "file": "expandedfoods:itemtypes/food/mixing/breadedmushroom.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "expandedfoods" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/transitionablePropsByType/*-cooked/0/freshHours/avg",
+    "value": 360,
+    "file": "expandedfoods:itemtypes/food/mixing/breadedmushroom.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "expandedfoods" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/transitionablePropsByType/*-syruppartbaked/0/freshHours/avg",
+    "value": 360,
+    "file": "expandedfoods:itemtypes/food/mixing/breadedmushroom.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "expandedfoods" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/transitionablePropsByType/*-syrup/0/freshHours/avg",
+    "value": 360,
+    "file": "expandedfoods:itemtypes/food/mixing/breadedmushroom.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "expandedfoods" }
+    ]
+  }
+]

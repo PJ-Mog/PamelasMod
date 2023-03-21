@@ -1,0 +1,32 @@
+[
+  {
+    "op": "replace",
+    "path": "/transitionablePropsByType/@*-(raw|smashed)/0/freshHours/avg",
+    "value": 360,
+    "file": "expandedfoods:itemtypes/food/meatnugget.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "expandedfoods" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/transitionablePropsByType/@*-(tenderpartbaked|cookedpartbaked|tender|cooked)/0/freshHours/avg",
+    "value": 360,
+    "file": "expandedfoods:itemtypes/food/meatnugget.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "expandedfoods" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/transitionablePropsByType/@*-(tendercharred|cookedcharred)/0/freshHours/avg",
+    "value": 360,
+    "file": "expandedfoods:itemtypes/food/meatnugget.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "expandedfoods" }
+    ]
+  }
+]

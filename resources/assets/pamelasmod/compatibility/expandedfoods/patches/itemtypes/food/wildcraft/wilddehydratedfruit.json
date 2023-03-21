@@ -1,0 +1,112 @@
+[
+  {
+    "op": "replace",
+    "path": "/attributes/nutritionPropsWhenInMeal/healthByType/*-snowberry",
+    "value": 2.5,
+    "file": "expandedfoods:itemtypes/food/wildcraft/wilddehydratedfruit.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "expandedfoods" },
+      { "modid": "wildcraft" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/nutritionPropsByType/*-snowberry/health",
+    "value": 2.5,
+    "file": "expandedfoods:itemtypes/food/wildcraft/wilddehydratedfruit.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "expandedfoods" },
+      { "modid": "wildcraft" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/nutritionPropsByType/*-elderberry/health",
+    "value": 0.25,
+    "file": "expandedfoods:itemtypes/food/wildcraft/wilddehydratedfruit.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "expandedfoods" },
+      { "modid": "wildcraft" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/transitionablePropsByType/*-snowberry/0/freshHours/avg",
+    "value": 720,
+    "file": "expandedfoods:itemtypes/food/wildcraft/wilddehydratedfruit.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "expandedfoods" },
+      { "modid": "wildcraft" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/transitionablePropsByType/*-cloudberry/0/freshHours/avg",
+    "value": 600,
+    "file": "expandedfoods:itemtypes/food/wildcraft/wilddehydratedfruit.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "expandedfoods" },
+      { "modid": "wildcraft" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/transitionablePropsByType/@*-(strawberry|honeysuckle)/0/freshHours/avg",
+    "value": 240,
+    "file": "expandedfoods:itemtypes/food/wildcraft/wilddehydratedfruit.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "expandedfoods" },
+      { "modid": "wildcraft" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/transitionablePropsByType/*-elderberry/0/freshHours/avg",
+    "value": 680,
+    "file": "expandedfoods:itemtypes/food/wildcraft/wilddehydratedfruit.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "expandedfoods" },
+      { "modid": "wildcraft" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/transitionablePropsByType/*-huckleberry/0/freshHours/avg",
+    "value": 960,
+    "file": "expandedfoods:itemtypes/food/wildcraft/wilddehydratedfruit.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "expandedfoods" },
+      { "modid": "wildcraft" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/transitionablePropsByType/*-dogrose/0/freshHours/avg",
+    "value": 360,
+    "file": "expandedfoods:itemtypes/food/wildcraft/wilddehydratedfruit.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "expandedfoods" },
+      { "modid": "wildcraft" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/transitionablePropsByType/*/0/freshHours/avg",
+    "value": 480,
+    "file": "expandedfoods:itemtypes/food/wildcraft/wilddehydratedfruit.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "expandedfoods" },
+      { "modid": "wildcraft" }
+    ]
+  }
+]

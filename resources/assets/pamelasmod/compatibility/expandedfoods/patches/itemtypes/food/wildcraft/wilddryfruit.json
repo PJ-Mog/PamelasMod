@@ -1,0 +1,24 @@
+[
+  {
+    "op": "replace",
+    "path": "/attributes/nutritionPropsWhenInMeal/healthByType/*-snowberry",
+    "value": 2.5,
+    "file": "expandedfoods:itemtypes/food/wildcraft/wilddryfruit.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "expandedfoods" },
+      { "modid": "wildcraft" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/transitionablePropsByType/*-cloudberry/0/freshHours/avg",
+    "value": 360,
+    "file": "expandedfoods:itemtypes/food/wildcraft/wilddryfruit.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "expandedfoods" },
+      { "modid": "wildcraft" }
+    ]
+  }
+]

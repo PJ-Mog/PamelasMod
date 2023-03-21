@@ -1,0 +1,12 @@
+[
+  {
+    "op": "replace",
+    "path": "/transitionablePropsByType/*-cassava/0/freshHours/avg",
+    "value": 60,
+    "file": "expandedfoods:itemtypes/food/choppedvegetable.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "expandedfoods" }
+    ]
+  }
+]

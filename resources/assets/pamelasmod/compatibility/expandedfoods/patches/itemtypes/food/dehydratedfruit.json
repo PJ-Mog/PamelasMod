@@ -1,0 +1,32 @@
+[
+  {
+    "op": "replace",
+    "path": "/transitionablePropsByType/*-cranberry/0/freshHours/avg",
+    "value": 960,
+    "file": "expandedfoods:itemtypes/food/dehydratedfruit.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "expandedfoods" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/transitionablePropsByType/@*-(pinkapple|redapple|yellowapple|pear|breadfruit)/1/freshHours/avg",
+    "value": 60,
+    "file": "expandedfoods:itemtypes/food/dehydratedfruit.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "expandedfoods" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/transitionablePropsByType/*/1/freshHours/avg",
+    "value": 60,
+    "file": "expandedfoods:itemtypes/food/dehydratedfruit.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "expandedfoods" }
+    ]
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "op": "replace",
+    "path": "/transitionablePropsByType/*-dough/0/freshHours/avg",
+    "value": 360,
+    "file": "expandedfoods:itemtypes/food/mixing/plaindoughball.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "expandedfoods" }
+    ]
+  }
+]

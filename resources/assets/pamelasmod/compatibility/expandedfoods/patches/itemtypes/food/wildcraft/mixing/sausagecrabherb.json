@@ -1,0 +1,50 @@
+[
+  {
+    "op": "replace",
+    "path": "/transitionablePropsByType/*-raw/1/freshHours/avg",
+    "value": 480,
+    "file": "expandedfoods:itemtypes/food/wildcraft/mixing/sausagecrabherb.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "expandedfoods" },
+      { "modid": "wildcraft" },
+      { "modid": "primitivesurvival" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/transitionablePropsByType/*-dried/0/freshHours/avg",
+    "value": 480,
+    "file": "expandedfoods:itemtypes/food/wildcraft/mixing/sausagecrabherb.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "expandedfoods" },
+      { "modid": "wildcraft" },
+      { "modid": "primitivesurvival" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/transitionablePropsByType/@*-(driedcharred|charred)/0/freshHours/avg",
+    "value": 480,
+    "file": "expandedfoods:itemtypes/food/wildcraft/mixing/sausagecrabherb.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "expandedfoods" },
+      { "modid": "wildcraft" },
+      { "modid": "primitivesurvival" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/transitionablePropsByType/*/0/freshHours/avg",
+    "value": 240,
+    "file": "expandedfoods:itemtypes/food/wildcraft/mixing/sausagecrabherb.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "expandedfoods" },
+      { "modid": "wildcraft" },
+      { "modid": "primitivesurvival" }
+    ]
+  }
+]

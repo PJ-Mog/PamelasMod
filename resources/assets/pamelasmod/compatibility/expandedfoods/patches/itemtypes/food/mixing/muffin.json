@@ -1,0 +1,12 @@
+[
+  {
+    "op": "replace",
+    "path": "/transitionablePropsByType/*-dough/0/freshHours/avg",
+    "value": 480,
+    "file": "expandedfoods:itemtypes/food/mixing/muffin.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "expandedfoods" }
+    ]
+  }
+]

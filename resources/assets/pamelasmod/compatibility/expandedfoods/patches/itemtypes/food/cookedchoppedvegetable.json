@@ -1,0 +1,12 @@
+[
+  {
+    "op": "replace",
+    "path": "/transitionablePropsByType/@*-pumpkin-(partbaked|perfect)/0/transitionHours/avg",
+    "value": 720,
+    "file": "expandedfoods:itemtypes/food/cookedchoppedvegetable.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "expandedfoods" }
+    ]
+  }
+]

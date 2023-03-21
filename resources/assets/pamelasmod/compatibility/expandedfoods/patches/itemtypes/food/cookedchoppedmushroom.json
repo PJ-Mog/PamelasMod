@@ -1,0 +1,272 @@
+[
+  {
+    "op": "replace",
+    "path": "/nutritionPropsByType/*-earthball-partbaked/health",
+    "value": 6,
+    "file": "expandedfoods:itemtypes/food/cookedchoppedmushroom.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "expandedfoods" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/nutritionPropsByType/*-deathcap-partbaked/health",
+    "value": 37.5,
+    "file": "expandedfoods:itemtypes/food/cookedchoppedmushroom.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "expandedfoods" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/nutritionPropsByType/*-elfinsaddle-partbaked/health",
+    "value": 5.25,
+    "file": "expandedfoods:itemtypes/food/cookedchoppedmushroom.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "expandedfoods" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/nutritionPropsByType/*-jackolantern-partbaked/health",
+    "value": 4.5,
+    "file": "expandedfoods:itemtypes/food/cookedchoppedmushroom.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "expandedfoods" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/nutritionPropsByType/*-devilbolete-partbaked/health",
+    "value": 7.5,
+    "file": "expandedfoods:itemtypes/food/cookedchoppedmushroom.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "expandedfoods" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/nutritionPropsByType/*-flyagaric-partbaked/health",
+    "value": 4.875,
+    "file": "expandedfoods:itemtypes/food/cookedchoppedmushroom.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "expandedfoods" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/nutritionPropsByType/*-bitterbolete-partbaked/health",
+    "value": 2.25,
+    "file": "expandedfoods:itemtypes/food/cookedchoppedmushroom.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "expandedfoods" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/nutritionPropsByType/*-devilstooth-partbaked/health",
+    "value": 1.5,
+    "file": "expandedfoods:itemtypes/food/cookedchoppedmushroom.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "expandedfoods" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/nutritionPropsByType/*-golddropmilkcap-partbaked/health",
+    "value": 1.875,
+    "file": "expandedfoods:itemtypes/food/cookedchoppedmushroom.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "expandedfoods" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/nutritionPropsByType/*-earthball-perfect/health",
+    "value": 4,
+    "file": "expandedfoods:itemtypes/food/cookedchoppedmushroom.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "expandedfoods" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/nutritionPropsByType/*-deathcap-perfect/health",
+    "value": 25,
+    "file": "expandedfoods:itemtypes/food/cookedchoppedmushroom.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "expandedfoods" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/nutritionPropsByType/*-elfinsaddle-perfect/health",
+    "value": 3.5,
+    "file": "expandedfoods:itemtypes/food/cookedchoppedmushroom.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "expandedfoods" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/nutritionPropsByType/*-jackolantern-perfect/health",
+    "value": 3,
+    "file": "expandedfoods:itemtypes/food/cookedchoppedmushroom.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "expandedfoods" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/nutritionPropsByType/*-devilbolete-perfect/health",
+    "value": 5,
+    "file": "expandedfoods:itemtypes/food/cookedchoppedmushroom.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "expandedfoods" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/nutritionPropsByType/*-flyagaric-perfect/health",
+    "value": 3.25,
+    "file": "expandedfoods:itemtypes/food/cookedchoppedmushroom.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "expandedfoods" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/nutritionPropsByType/*-bitterbolete-perfect/health",
+    "value": 1.5,
+    "file": "expandedfoods:itemtypes/food/cookedchoppedmushroom.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "expandedfoods" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/nutritionPropsByType/*-devilstooth-perfect/health",
+    "value": 1,
+    "file": "expandedfoods:itemtypes/food/cookedchoppedmushroom.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "expandedfoods" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/nutritionPropsByType/*-golddropmilkcap-perfect/health",
+    "value": 1.25,
+    "file": "expandedfoods:itemtypes/food/cookedchoppedmushroom.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "expandedfoods" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/nutritionPropsByType/*-earthball-charred/health",
+    "value": 2,
+    "file": "expandedfoods:itemtypes/food/cookedchoppedmushroom.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "expandedfoods" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/nutritionPropsByType/*-deathcap-charred/health",
+    "value": 12.25,
+    "file": "expandedfoods:itemtypes/food/cookedchoppedmushroom.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "expandedfoods" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/nutritionPropsByType/*-elfinsaddle-charred/health",
+    "value": 1.75,
+    "file": "expandedfoods:itemtypes/food/cookedchoppedmushroom.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "expandedfoods" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/nutritionPropsByType/*-jackolantern-charred/health",
+    "value": 1.5,
+    "file": "expandedfoods:itemtypes/food/cookedchoppedmushroom.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "expandedfoods" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/nutritionPropsByType/*-devilbolete-charred/health",
+    "value": 2.5,
+    "file": "expandedfoods:itemtypes/food/cookedchoppedmushroom.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "expandedfoods" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/nutritionPropsByType/*-flyagaric-charred/health",
+    "value": 1.625,
+    "file": "expandedfoods:itemtypes/food/cookedchoppedmushroom.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "expandedfoods" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/nutritionPropsByType/*-bitterbolete-charred/health",
+    "value": 0.75,
+    "file": "expandedfoods:itemtypes/food/cookedchoppedmushroom.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "expandedfoods" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/nutritionPropsByType/*-devilstooth-charred/health",
+    "value": 0.5,
+    "file": "expandedfoods:itemtypes/food/cookedchoppedmushroom.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "expandedfoods" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/nutritionPropsByType/*-golddropmilkcap-charred/health",
+    "value": 0.625,
+    "file": "expandedfoods:itemtypes/food/cookedchoppedmushroom.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "expandedfoods" }
+    ]
+  }
+]

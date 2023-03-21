@@ -1,0 +1,167 @@
+[
+  {
+    "op": "replace",
+    "path": "/transitionablePropsByType/*-honey/0/freshHours/avg",
+    "value": 360,
+    "file": "expandedfoods:itemtypes/food/primitivesurvival/mixing/sushi.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "expandedfoods" },
+      { "modid": "primitivesurvival" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/transitionablePropsByType/*-peanut/0/freshHours/avg",
+    "value": 360,
+    "file": "expandedfoods:itemtypes/food/primitivesurvival/mixing/sushi.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "expandedfoods" },
+      { "modid": "primitivesurvival" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/transitionablePropsByType/*-nooil/0/freshHours/avg",
+    "value": 360,
+    "file": "expandedfoods:itemtypes/food/primitivesurvival/mixing/sushi.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "expandedfoods" },
+      { "modid": "primitivesurvival" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/transitionablePropsByType/*-oil/0/freshHours/avg",
+    "value": 360,
+    "file": "expandedfoods:itemtypes/food/primitivesurvival/mixing/sushi.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "expandedfoods" },
+      { "modid": "primitivesurvival" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/expandedNutritionProps/expandedfoods:choppedmushroom-earthball/health",
+    "value": 8,
+    "file": "expandedfoods:itemtypes/food/primitivesurvival/mixing/sushi.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "expandedfoods" },
+      { "modid": "primitivesurvival" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/expandedNutritionProps/expandedfoods:choppedmushroom-deathcap/health",
+    "value": 50,
+    "file": "expandedfoods:itemtypes/food/primitivesurvival/mixing/sushi.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "expandedfoods" },
+      { "modid": "primitivesurvival" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/expandedNutritionProps/expandedfoods:choppedmushroom-funeralbell/health",
+    "value": 40,
+    "file": "expandedfoods:itemtypes/food/primitivesurvival/mixing/sushi.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "expandedfoods" },
+      { "modid": "primitivesurvival" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/expandedNutritionProps/expandedfoods:choppedmushroom-elfinsaddle/health",
+    "value": 7,
+    "file": "expandedfoods:itemtypes/food/primitivesurvival/mixing/sushi.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "expandedfoods" },
+      { "modid": "primitivesurvival" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/expandedNutritionProps/expandedfoods:choppedmushroom-jackolantern/health",
+    "value": 6,
+    "file": "expandedfoods:itemtypes/food/primitivesurvival/mixing/sushi.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "expandedfoods" },
+      { "modid": "primitivesurvival" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/expandedNutritionProps/expandedfoods:choppedmushroom-devilsbolete/health",
+    "value": 10,
+    "file": "expandedfoods:itemtypes/food/primitivesurvival/mixing/sushi.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "expandedfoods" },
+      { "modid": "primitivesurvival" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/expandedNutritionProps/expandedfoods:choppedmushroom-pinkbonnet/health",
+    "value": 10,
+    "file": "expandedfoods:itemtypes/food/primitivesurvival/mixing/sushi.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "expandedfoods" },
+      { "modid": "primitivesurvival" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/expandedNutritionProps/expandedfoods:choppedmushroom-flyagaric/health",
+    "value": 6.5,
+    "file": "expandedfoods:itemtypes/food/primitivesurvival/mixing/sushi.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "expandedfoods" },
+      { "modid": "primitivesurvival" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/expandedNutritionProps/expandedfoods:choppedmushroom-bitterbolete/health",
+    "value": 3,
+    "file": "expandedfoods:itemtypes/food/primitivesurvival/mixing/sushi.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "expandedfoods" },
+      { "modid": "primitivesurvival" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/expandedNutritionProps/expandedfoods:choppedmushroom-devilstooth/health",
+    "value": 2,
+    "file": "expandedfoods:itemtypes/food/primitivesurvival/mixing/sushi.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "expandedfoods" },
+      { "modid": "primitivesurvival" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/expandedNutritionProps/expandedfoods:choppedmushroom-golddropmilkcap/health",
+    "value": 2.5,
+    "file": "expandedfoods:itemtypes/food/primitivesurvival/mixing/sushi.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "expandedfoods" },
+      { "modid": "primitivesurvival" }
+    ]
+  }
+]

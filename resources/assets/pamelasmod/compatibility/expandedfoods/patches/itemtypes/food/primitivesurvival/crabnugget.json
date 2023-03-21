@@ -1,0 +1,13 @@
+[
+  {
+    "op": "replace",
+    "path": "/transitionablePropsByType/*-raw/0/freshHours/avg",
+    "value": 480,
+    "file": "expandedfoods:itemtypes/food/primitivesurvival/crabnugget.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "expandedfoods" },
+      { "modid": "primitivesurvival" }
+    ]
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "op": "replace",
+    "path": "/transitionablePropsByType/*-raw/1/freshHours/avg",
+    "value": 480,
+    "file": "expandedfoods:itemtypes/food/mixing/sausage.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "expandedfoods" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/transitionablePropsByType/*-dried/0/freshHours/avg",
+    "value": 480,
+    "file": "expandedfoods:itemtypes/food/mixing/sausage.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "expandedfoods" }
+    ]
+  }
+]

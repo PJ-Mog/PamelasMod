@@ -1,0 +1,35 @@
+[
+  {
+    "op": "replace",
+    "path": "/transitionablePropsByType/*-oiled/0/freshHours/avg",
+    "value": 240,
+    "file": "expandedfoods:itemtypes/food/primitivesurvival/mixing/breadedfishnugget.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "expandedfoods" },
+      { "modid": "primitivesurvival" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/transitionablePropsByType/*-smashed/0/freshHours/avg",
+    "value": 240,
+    "file": "expandedfoods:itemtypes/food/primitivesurvival/mixing/breadedfishnugget.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "expandedfoods" },
+      { "modid": "primitivesurvival" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/transitionablePropsByType/*/0/freshHours/avg",
+    "value": 300,
+    "file": "expandedfoods:itemtypes/food/primitivesurvival/mixing/breadedfishnugget.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "expandedfoods" },
+      { "modid": "primitivesurvival" }
+    ]
+  }
+]
