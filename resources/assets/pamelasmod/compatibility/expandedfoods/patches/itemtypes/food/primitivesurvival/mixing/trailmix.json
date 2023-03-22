@@ -1,0 +1,13 @@
+[
+  {
+    "op": "replace",
+    "path": "/maxstacksize",
+    "value": 512,
+    "file": "expandedfoods:itemtypes/food/primitivesurvival/mixing/trailmix.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "expandedfoods" },
+      { "modid": "primitivesurvival" }
+    ]
+  }
+]
