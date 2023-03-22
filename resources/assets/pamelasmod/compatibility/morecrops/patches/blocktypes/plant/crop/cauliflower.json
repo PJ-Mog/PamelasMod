@@ -1,0 +1,128 @@
+[
+  {
+    "op": "replace",
+    "path": "/dropsByType/*-11/0/quantity/avg",
+    "value": 5,
+    "file": "morecrops:blocktypes/plant/crop/cauliflower.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "morecrops" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/dropsByType/*-11/1/quantity/avg",
+    "value": 10,
+    "file": "morecrops:blocktypes/plant/crop/cauliflower.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "morecrops" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/dropsByType/*-11/1/quantity/var",
+    "value": 0,
+    "file": "morecrops:blocktypes/plant/crop/cauliflower.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "morecrops" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/dropsByType/*-12/0/quantity/avg",
+    "value": 6,
+    "file": "morecrops:blocktypes/plant/crop/cauliflower.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "morecrops" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/dropsByType/*-12/1/quantity/avg",
+    "value": 12,
+    "file": "morecrops:blocktypes/plant/crop/cauliflower.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "morecrops" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/dropsByType/*-12/1/quantity/var",
+    "value": 0,
+    "file": "morecrops:blocktypes/plant/crop/cauliflower.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "morecrops" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/dropsByType/*/0/quantity/avg",
+    "value": 1,
+    "file": "morecrops:blocktypes/plant/crop/cauliflower.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "morecrops" }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/dropsByType/*-9",
+    "value": [
+      { "type": "item", "code": "seeds-{type}", "quantity": { "avg": 3 } },
+      { "type": "item", "code": "vegetable-{type}", "quantity": { "avg": 6, "var": 0 } }
+    ],
+    "file": "morecrops:blocktypes/plant/crop/cauliflower.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "morecrops" }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/dropsByType/*-10",
+    "value": [
+      { "type": "item", "code": "seeds-{type}", "quantity": { "avg": 4 } },
+      { "type": "item", "code": "vegetable-{type}", "quantity": { "avg": 8, "var": 0 } }
+    ],
+    "file": "morecrops:blocktypes/plant/crop/cauliflower.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "morecrops" }
+    ]
+  },
+  {
+    "op": "move",
+    "path": "/temp",
+    "fromPath": "/dropsByType/*",
+    "file": "morecrops:blocktypes/plant/crop/cauliflower.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "morecrops" }
+    ]
+  },
+  {
+    "op": "move",
+    "path": "/dropsByType/*",
+    "fromPath": "/temp",
+    "file": "morecrops:blocktypes/plant/crop/cauliflower.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "morecrops" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/cropProps/requiredNutrient",
+    "value": "K",
+    "file": "morecrops:blocktypes/plant/crop/cauliflower.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "morecrops" }
+    ]
+  }
+]

@@ -188,26 +188,44 @@ namespace PamelasMod {
           "shovel-obsidian",
           "knife-generic-obsidian",
         }),
-        LootItem.Item(2f, 1f, 1f, new string[]
+        LootItem.Item(0.5f, 1f, 1f, new string[]
         {
-          "axe-copper",
-          "shovel-copper",
-          "knife-copper",
-          "scythe-copper",
-          "axe-felling-copper",
-          "shovel-copper",
-          "knife-generic-copper",
+          "axe-felling-copper"
+        }),
+        LootItem.Item(0.5f, 1f, 1f, new string[]
+        {
+          "knife-generic-copper"
+        }),
+        LootItem.Item(0.5f, 1f, 1f, new string[]
+        {
+          "shovel-copper"
+        }),
+        LootItem.Item(0.25f, 1f, 1f, new string[]
+        {
+          "scythe-copper"
+        }),
+        LootItem.Item(0.25f, 1f, 1f, new string[]
+        {
           "blade-falx-copper"
         }),
-        LootItem.Item(1f, 1f, 1f, new string[]
+        LootItem.Item(0.25f, 1f, 1f, new string[]
         {
-          "axe-tinbronze",
-          "shovel-tinbronze",
-          "knife-tinbronze",
-          "scythe-tinbronze",
-          "axe-felling-tinbronze",
-          "shovel-tinbronze",
-          "knife-generic-tinbronze",
+          "axe-felling-tinbronze"
+        }),
+        LootItem.Item(0.25f, 1f, 1f, new string[]
+        {
+          "knife-generic-tinbronze"
+        }),
+        LootItem.Item(0.25f, 1f, 1f, new string[]
+        {
+          "shovel-tinbronze"
+        }),
+        LootItem.Item(0.125f, 1f, 1f, new string[]
+        {
+          "scythe-tinbronze"
+        }),
+        LootItem.Item(0.125f, 1f, 1f, new string[]
+        {
           "blade-falx-tinbronze"
         }),
         LootItem.Item(1f, 1f, 1f, new string[]
@@ -275,12 +293,12 @@ namespace PamelasMod {
         }),
         LootItem.Item(1f, 64f, 64f, new string[]
         {
+          "stone-chalk",
+          "stone-chalk",
+          "stone-chalk",
           "stone-andesite",
-          "stone-chalk",
           "stone-granite",
-          "stone-chalk",
-          "stone-basalt",
-          "stone-chalk"
+          "stone-basalt"
         }),
         LootItem.Block(1f, 64f, 64f, new string[]
         {
