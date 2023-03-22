@@ -110,12 +110,12 @@ namespace PamelasMod {
         }),
         LootItem.Item(3f, 16f, 32f, new string[]
         {
+          "stone-chalk",
+          "stone-chalk",
+          "stone-chalk",
           "stone-andesite",
-          "stone-chalk",
           "stone-claystone",
-          "stone-chalk",
           "stone-granite",
-          "stone-chalk",
           "stone-sandstone",
           "stone-shale"
         }),
@@ -172,10 +172,10 @@ namespace PamelasMod {
         LootItem.Item(2f, 8f, 16f, new string[]
         {
           "nugget-cassiterite",
-          "nugget-nativegold",
-          "nugget-nativesilver",
           "nugget-cassiterite",
           "nugget-nativegold",
+          "nugget-nativegold",
+          "nugget-nativesilver",
           "nugget-nativesilver"
         })
       });
@@ -271,8 +271,8 @@ namespace PamelasMod {
         LootItem.Item(1f, 1f, 1f, new string[]
         {
           "scythe-copper",
-          "scythe-tinbronze",
           "scythe-copper",
+          "scythe-tinbronze",
           "scythe-tinbronze"
         })
       });
