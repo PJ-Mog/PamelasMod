@@ -1,0 +1,12 @@
+[
+  {
+    "op": "replace",
+    "path": "/grindingProps/quantity",
+    "value": 2,
+    "file": "acorns:itemtypes/food/acorn-meal.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "acorns" }
+    ]
+  }
+]
