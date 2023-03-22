@@ -186,7 +186,7 @@ namespace PamelasMod {
         {
           "axe-obsidian",
           "shovel-obsidian",
-          "knife-generic-obsidian",
+          "knife-generic-obsidian"
         }),
         LootItem.Item(0.5f, 1f, 1f, new string[]
         {
