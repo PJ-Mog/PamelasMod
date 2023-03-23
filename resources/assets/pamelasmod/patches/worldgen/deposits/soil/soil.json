@@ -2,7 +2,7 @@
   {
     "op": "replace",
     "path": "/0/triesPerChunk",
-    "value": 0.75,
+    "value": 0.5,
     "file": "game:worldgen/deposits/soil/soil.json",
     "side": "Server"
   },
@@ -10,6 +10,13 @@
     "op": "replace",
     "path": "/0/climate/maxY",
     "value": 2.5,
+    "file": "game:worldgen/deposits/soil/soil.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/0/climate/minRain",
+    "value": 0.3,
     "file": "game:worldgen/deposits/soil/soil.json",
     "side": "Server"
   }

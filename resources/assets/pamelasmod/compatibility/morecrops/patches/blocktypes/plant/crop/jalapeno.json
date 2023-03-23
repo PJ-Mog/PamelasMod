@@ -1,0 +1,98 @@
+[
+  {
+    "op": "replace",
+    "path": "/dropsByType/*-8/0/quantity/avg",
+    "value": 4,
+    "file": "morecrops:blocktypes/plant/crop/jalapeno.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "morecrops" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/dropsByType/*-8/1/quantity/avg",
+    "value": 8,
+    "file": "morecrops:blocktypes/plant/crop/jalapeno.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "morecrops" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/dropsByType/*-8/1/quantity/var",
+    "value": 0,
+    "file": "morecrops:blocktypes/plant/crop/jalapeno.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "morecrops" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/dropsByType/*/0/quantity/avg",
+    "value": 1,
+    "file": "morecrops:blocktypes/plant/crop/jalapeno.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "morecrops" }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/dropsByType/*-6",
+    "value": [
+      { "type": "item", "code": "seeds-{type}", "quantity": { "avg": 2 } },
+      { "type": "item", "code": "vegetable-{type}", "quantity": { "avg": 4, "var": 0 } }
+    ],
+    "file": "morecrops:blocktypes/plant/crop/jalapeno.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "morecrops" }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/dropsByType/*-7",
+    "value": [
+      { "type": "item", "code": "seeds-{type}", "quantity": { "avg": 3 } },
+      { "type": "item", "code": "vegetable-{type}", "quantity": { "avg": 6, "var": 0 } }
+    ],
+    "file": "morecrops:blocktypes/plant/crop/jalapeno.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "morecrops" }
+    ]
+  },
+  {
+    "op": "move",
+    "path": "/temp",
+    "fromPath": "/dropsByType/*",
+    "file": "morecrops:blocktypes/plant/crop/jalapeno.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "morecrops" }
+    ]
+  },
+  {
+    "op": "move",
+    "path": "/dropsByType/*",
+    "fromPath": "/temp",
+    "file": "morecrops:blocktypes/plant/crop/jalapeno.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "morecrops" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/cropProps/requiredNutrient",
+    "value": "K",
+    "file": "morecrops:blocktypes/plant/crop/jalapeno.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "morecrops" }
+    ]
+  }
+]

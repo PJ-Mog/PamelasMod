@@ -1,0 +1,105 @@
+[
+  {
+    "op": "replace",
+    "path": "/dropsByType/*-5/0/quantity/avg",
+    "value": 3,
+    "file": "morecrops:blocktypes/plant/crop/eggplant.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "morecrops" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/dropsByType/*-5/1/quantity/avg",
+    "value": 6,
+    "file": "morecrops:blocktypes/plant/crop/eggplant.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "morecrops" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/dropsByType/*-5/1/quantity/var",
+    "value": 0,
+    "file": "morecrops:blocktypes/plant/crop/eggplant.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "morecrops" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/dropsByType/*-6/0/quantity/avg",
+    "value": 4,
+    "file": "morecrops:blocktypes/plant/crop/eggplant.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "morecrops" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/dropsByType/*-6/1/quantity/avg",
+    "value": 8,
+    "file": "morecrops:blocktypes/plant/crop/eggplant.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "morecrops" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/dropsByType/*-6/1/quantity/var",
+    "value": 0,
+    "file": "morecrops:blocktypes/plant/crop/eggplant.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "morecrops" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/dropsByType/*/0/quantity/avg",
+    "value": 1,
+    "file": "morecrops:blocktypes/plant/crop/eggplant.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "morecrops" }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/dropsByType/*-4",
+    "value": [
+      { "type": "item", "code": "seeds-{type}", "quantity": { "avg": 2 } },
+      { "type": "item", "code": "vegetable-{type}", "quantity": { "avg": 4, "var": 0 } }
+    ],
+    "file": "morecrops:blocktypes/plant/crop/eggplant.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "morecrops" }
+    ]
+  },
+  {
+    "op": "move",
+    "path": "/temp",
+    "fromPath": "/dropsByType/*",
+    "file": "morecrops:blocktypes/plant/crop/eggplant.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "morecrops" }
+    ]
+  },
+  {
+    "op": "move",
+    "path": "/dropsByType/*",
+    "fromPath": "/temp",
+    "file": "morecrops:blocktypes/plant/crop/eggplant.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "morecrops" }
+    ]
+  }
+]

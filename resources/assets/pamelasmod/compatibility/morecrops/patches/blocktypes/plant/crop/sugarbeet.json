@@ -1,0 +1,72 @@
+[
+  {
+    "op": "replace",
+    "path": "/dropsByType/*-4/0/quantity/avg",
+    "value": 2,
+    "file": "morecrops:blocktypes/plant/crop/sugarbeet.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "morecrops" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/dropsByType/*-4/1/quantity/avg",
+    "value": 4,
+    "file": "morecrops:blocktypes/plant/crop/sugarbeet.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "morecrops" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/dropsByType/*-4/1/quantity/var",
+    "value": 0,
+    "file": "morecrops:blocktypes/plant/crop/sugarbeet.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "morecrops" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/dropsByType/*-5/0/quantity/avg",
+    "value": 3,
+    "file": "morecrops:blocktypes/plant/crop/sugarbeet.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "morecrops" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/dropsByType/*-5/1/quantity/avg",
+    "value": 6,
+    "file": "morecrops:blocktypes/plant/crop/sugarbeet.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "morecrops" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/dropsByType/*-5/1/quantity/var",
+    "value": 0,
+    "file": "morecrops:blocktypes/plant/crop/sugarbeet.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "morecrops" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/dropsByType/*/0/quantity/avg",
+    "value": 1,
+    "file": "morecrops:blocktypes/plant/crop/sugarbeet.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "morecrops" }
+    ]
+  }
+]
