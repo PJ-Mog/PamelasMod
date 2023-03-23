@@ -10,7 +10,7 @@
     "maxTemp": 35,
     "minRain": 0.18,
     "maxRain": 0.75,
-    "maxForest": 0.3,
+    "maxForest": 0.65,
     "quantity": {
       "avg": 5,
       "var": 5
@@ -28,7 +28,7 @@
     "maxTemp": 35,
     "minRain": 0.16,
     "maxRain": 0.7,
-    "maxForest": 0.2,
+    "maxForest": 0.65,
     "quantity": {
       "avg": 5,
       "var": 5
@@ -46,7 +46,7 @@
     "maxTemp": 29,
     "minRain": 0.16,
     "maxRain": 0.7,
-    "maxForest": 0.2,
+    "maxForest": 0.65,
     "quantity": {
       "avg": 5,
       "var": 5
@@ -67,7 +67,7 @@
     "maxTemp": 32,
     "minRain": 0.1,
     "maxRain": 0.7,
-    "maxForest": 0.02,
+    "maxForest": 0.5,
     "quantity": {
       "avg": 5,
       "var": 5
@@ -85,7 +85,7 @@
     "maxTemp": 26,
     "minRain": 0.45,
     "maxRain": 0.85,
-    "maxForest": 0.34,
+    "maxForest": 0.65,
     "quantity": {
       "avg": 5,
       "var": 5
@@ -103,7 +103,7 @@
     "maxTemp": 36,
     "minRain": 0.45,
     "maxRain": 0.85,
-    "maxForest": 0.34,
+    "maxForest": 0.65,
     "quantity": {
       "avg": 5,
       "var": 5
@@ -123,7 +123,7 @@
     "maxTemp": 25,
     "minRain": 0.15,
     "maxRain": 0.75,
-    "maxForest": 0.02,
+    "maxForest": 0.3,
     "quantity": {
       "avg": 5,
       "var": 5
@@ -142,7 +142,7 @@
     "maxTemp": 25,
     "minRain": 0.15,
     "maxRain": 0.75,
-    "maxForest": 0.02,
+    "maxForest": 0.3,
     "quantity": {
       "avg": 5,
       "var": 5
@@ -160,7 +160,7 @@
     "maxTemp": 35,
     "minRain": 0.16,
     "maxRain": 0.7,
-    "maxForest": 0.2,
+    "maxForest": 0.3,
     "quantity": {
       "avg": 5,
       "var": 5
@@ -178,7 +178,7 @@
     "maxTemp": 26,
     "minRain": 0.45,
     "maxRain": 0.85,
-    "maxForest": 0.34,
+    "maxForest": 0.65,
     "quantity": {
       "avg": 5,
       "var": 5
@@ -196,7 +196,7 @@
     "maxTemp": 26,
     "minRain": 0.45,
     "maxRain": 0.85,
-    "maxForest": 0.34,
+    "maxForest": 0.65,
     "quantity": {
       "avg": 5,
       "var": 5
