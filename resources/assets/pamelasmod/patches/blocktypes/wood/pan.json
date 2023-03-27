@@ -1,0 +1,203 @@
+[
+  {
+    "op": "replace",
+    "path": "/attributes/panningDrops/@(sand|gravel)-.*/3/chance/avg",
+    "value": 0.25,
+    "file": "game:blocktypes/wood/pan.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/panningDrops/@(sand|gravel)-.*/12/chance/avg",
+    "value": 0.15,
+    "file": "game:blocktypes/wood/pan.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/panningDrops/@(sand|gravel)-.*/13/chance/avg",
+    "value": 0.15,
+    "file": "game:blocktypes/wood/pan.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/panningDrops/@(sand|gravel)-.*/14/chance/avg",
+    "value": 0.15,
+    "file": "game:blocktypes/wood/pan.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/panningDrops/@(sand|gravel)-.*/2",
+    "file": "game:blocktypes/wood/pan.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/panningDrops/@(sand|gravel)-.*/6",
+    "file": "game:blocktypes/wood/pan.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/panningDrops/@(sand|gravel)-.*/8",
+    "file": "game:blocktypes/wood/pan.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/panningDrops/@(sand|gravel)-.*/18",
+    "file": "game:blocktypes/wood/pan.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/panningDrops/@(sand|gravel)-.*/-",
+    "value": { "type": "item", "code": "game:clay-fire", "chance": { "avg": 0.25, "var": 0 } },
+    "file": "game:blocktypes/wood/pan.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/panningDrops/@(sand|gravel)-.*/-",
+    "value": { "type": "item", "code": "game:clay-red", "chance": { "avg": 0.25, "var": 0 } },
+    "file": "game:blocktypes/wood/pan.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/panningDrops/@(sand|gravel)-.*/-",
+    "value": { "type": "item", "code": "game:clay-brown", "chance": { "avg": 0.25, "var": 0 } },
+    "file": "game:blocktypes/wood/pan.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/panningDrops/@(bonysoil|bonysoil-.*)/4/chance/avg",
+    "value": 0.25,
+    "file": "game:blocktypes/wood/pan.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/panningDrops/@(bonysoil|bonysoil-.*)/7/attributes/potential",
+    "value": "medium",
+    "file": "game:blocktypes/wood/pan.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/panningDrops/@(bonysoil|bonysoil-.*)/7/chance/avg",
+    "value": 0.15,
+    "file": "game:blocktypes/wood/pan.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/panningDrops/@(bonysoil|bonysoil-.*)/8/attributes/potential",
+    "value": "medium",
+    "file": "game:blocktypes/wood/pan.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/panningDrops/@(bonysoil|bonysoil-.*)/8/chance/avg",
+    "value": 0.15,
+    "file": "game:blocktypes/wood/pan.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/panningDrops/@(bonysoil|bonysoil-.*)/9/attributes/potential",
+    "value": "medium",
+    "file": "game:blocktypes/wood/pan.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/panningDrops/@(bonysoil|bonysoil-.*)/9/chance/avg",
+    "value": 0.05,
+    "file": "game:blocktypes/wood/pan.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/panningDrops/@(bonysoil|bonysoil-.*)/10/chance/avg",
+    "value": 0.15,
+    "file": "game:blocktypes/wood/pan.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/panningDrops/@(bonysoil|bonysoil-.*)/11/chance/avg",
+    "value": 0.15,
+    "file": "game:blocktypes/wood/pan.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/panningDrops/@(bonysoil|bonysoil-.*)/13/chance/avg",
+    "value": 0.035,
+    "file": "game:blocktypes/wood/pan.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/panningDrops/@(bonysoil|bonysoil-.*)/14/chance/avg",
+    "value": 0.035,
+    "file": "game:blocktypes/wood/pan.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/panningDrops/@(bonysoil|bonysoil-.*)/15/chance/avg",
+    "value": 0.035,
+    "file": "game:blocktypes/wood/pan.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/panningDrops/@(bonysoil|bonysoil-.*)/16/chance/avg",
+    "value": 0.035,
+    "file": "game:blocktypes/wood/pan.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/panningDrops/@(bonysoil|bonysoil-.*)/2",
+    "file": "game:blocktypes/wood/pan.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/panningDrops/@(bonysoil|bonysoil-.*)/5",
+    "file": "game:blocktypes/wood/pan.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/panningDrops/@(bonysoil|bonysoil-.*)/23",
+    "file": "game:blocktypes/wood/pan.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/panningDrops/@(bonysoil|bonysoil-.*)/24",
+    "file": "game:blocktypes/wood/pan.json",
+    "side": "Server"
+  },
+  {
+    "op": "copy",
+    "fromPath": "/attributes/panningDrops/@(sand|gravel)-.*",
+    "path": "/attributes/panningDrops/@(muddygravel|muddygravel-.*)",
+    "file": "game:blocktypes/wood/pan.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/panningDrops/@(muddygravel|muddygravel-.*)/0",
+    "file": "game:blocktypes/wood/pan.json",
+    "side": "Server"
+  }
+]

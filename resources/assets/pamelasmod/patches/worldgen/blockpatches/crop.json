@@ -2,98 +2,98 @@
   {
     "op": "replace",
     "path": "/0/chance",
-    "value": 1.5,
+    "value": 1.0,
     "file": "game:worldgen/blockpatches/crop.json",
     "side": "Server"
   },
   {
     "op": "replace",
     "path": "/1/chance",
-    "value": 1.5,
+    "value": 1.0,
     "file": "game:worldgen/blockpatches/crop.json",
     "side": "Server"
   },
   {
     "op": "replace",
     "path": "/2/chance",
-    "value": 1.5,
+    "value": 1.0,
     "file": "game:worldgen/blockpatches/crop.json",
     "side": "Server"
   },
   {
     "op": "replace",
     "path": "/3/chance",
-    "value": 1.5,
+    "value": 1.0,
     "file": "game:worldgen/blockpatches/crop.json",
     "side": "Server"
   },
   {
     "op": "replace",
     "path": "/4/chance",
-    "value": 1.5,
+    "value": 1.0,
     "file": "game:worldgen/blockpatches/crop.json",
     "side": "Server"
   },
   {
     "op": "replace",
     "path": "/5/chance",
-    "value": 1.5,
+    "value": 1.0,
     "file": "game:worldgen/blockpatches/crop.json",
     "side": "Server"
   },
   {
     "op": "replace",
     "path": "/6/chance",
-    "value": 1.5,
+    "value": 1.0,
     "file": "game:worldgen/blockpatches/crop.json",
     "side": "Server"
   },
   {
     "op": "replace",
     "path": "/7/chance",
-    "value": 1.5,
+    "value": 1.0,
     "file": "game:worldgen/blockpatches/crop.json",
     "side": "Server"
   },
   {
     "op": "replace",
     "path": "/8/chance",
-    "value": 1.5,
+    "value": 1.0,
     "file": "game:worldgen/blockpatches/crop.json",
     "side": "Server"
   },
   {
     "op": "replace",
     "path": "/9/chance",
-    "value": 1.5,
+    "value": 1.0,
     "file": "game:worldgen/blockpatches/crop.json",
     "side": "Server"
   },
   {
     "op": "replace",
     "path": "/10/chance",
-    "value": 1.5,
+    "value": 1.0,
     "file": "game:worldgen/blockpatches/crop.json",
     "side": "Server"
   },
   {
     "op": "replace",
     "path": "/11/chance",
-    "value": 1.5,
+    "value": 1.0,
     "file": "game:worldgen/blockpatches/crop.json",
     "side": "Server"
   },
   {
     "op": "replace",
     "path": "/12/chance",
-    "value": 1.5,
+    "value": 1.0,
     "file": "game:worldgen/blockpatches/crop.json",
     "side": "Server"
   },
   {
     "op": "replace",
     "path": "/13/chance",
-    "value": 1.5,
+    "value": 1.0,
     "file": "game:worldgen/blockpatches/crop.json",
     "side": "Server"
   }

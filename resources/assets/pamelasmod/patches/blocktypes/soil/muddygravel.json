@@ -1,0 +1,20 @@
+[
+  {
+    "op": "add",
+    "path": "/attributes/pannable",
+    "value": true,
+    "file": "game:blocktypes/soil/muddygravel.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/pannedBlock",
+    "value": "muddygravel-7",
+    "file": "game:blocktypes/soil/muddygravel.json"
+  },
+  {
+    "op": "add",
+    "path": "/attributes/allowUnstablePlacement",
+    "value": true,
+    "file": "game:blocktypes/soil/muddygravel.json"
+  }
+]
