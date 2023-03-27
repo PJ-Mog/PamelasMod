@@ -1,0 +1,22 @@
+[
+  {
+    "op": "replace",
+    "path": "/1/chance",
+    "value": 0.01,
+    "file": "tpnet:worldgen/teleports.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "tpnet" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/2/chance",
+    "value": 3,
+    "file": "tpnet:worldgen/teleports.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "tpnet" }
+    ]
+  }
+]
