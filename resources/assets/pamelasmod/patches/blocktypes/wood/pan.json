@@ -63,14 +63,20 @@
     "path": "/attributes/panningDrops/@(sand|gravel)-.*/-",
     "value": { "type": "item", "code": "game:clay-red", "chance": { "avg": 0.25, "var": 0 } },
     "file": "game:blocktypes/wood/pan.json",
-    "side": "Server"
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "moreclay" }
+    ]
   },
   {
     "op": "add",
     "path": "/attributes/panningDrops/@(sand|gravel)-.*/-",
     "value": { "type": "item", "code": "game:clay-brown", "chance": { "avg": 0.25, "var": 0 } },
     "file": "game:blocktypes/wood/pan.json",
-    "side": "Server"
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "moreclay" }
+    ]
   },
   {
     "op": "replace",
