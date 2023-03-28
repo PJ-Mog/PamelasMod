@@ -1,3 +1,5 @@
+using System;
+using System.Collections.Generic;
 using Vintagestory.API.Common;
 using Vintagestory.API.Config;
 using Vintagestory.API.MathTools;
@@ -104,11 +106,7 @@ namespace PamelasMod {
         {
           "stone-obsidian"
         }),
-        LootItem.Item(2f, 32f, 64f, new string[]
-        {
-          "clay-blue",
-          "clay-fire"
-        }),
+        LootItem.Item(2f, 32f, 64f, GetLootVesselClayDrops(sapi)),
         LootItem.Item(3f, 16f, 32f, new string[]
         {
           "stone-chalk",
@@ -311,11 +309,7 @@ namespace PamelasMod {
         {
           "soil-medium-none"
         }),
-        LootItem.Item(1f, 64f, 64f, new string[]
-        {
-          "clay-blue",
-          "clay-fire"
-        }),
+        LootItem.Item(1f, 64f, 64f, GetLootVesselClayDrops(sapi)),
         LootItem.Item(0.5f, 16f, 16f, new string[]
         {
           "poultice-linen-horsetail"
@@ -333,6 +327,18 @@ namespace PamelasMod {
           "gear-rusty"
         })
       });
+    }
+
+    private string[] GetLootVesselClayDrops(ICoreServerAPI sapi) {
+      var possibleClayDrops = new List<string> {
+        "clay-blue",
+        "clay-fire"
+      };
+      if (sapi.ModLoader.IsModEnabled("moreclay")) {
+        possibleClayDrops.Add("clay-red");
+        possibleClayDrops.Add("clay-brown");
+      }
+      return possibleClayDrops.ToArray();
     }
   }
 }
