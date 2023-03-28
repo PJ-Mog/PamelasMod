@@ -81,7 +81,7 @@
       "morecrops:crop-beet-3",
       "morecrops:crop-beet-5"
     ],
-    "minTemp": 10,
+    "minTemp": 5,
     "maxTemp": 26,
     "minRain": 0.45,
     "maxRain": 0.85,
@@ -174,7 +174,7 @@
       "morecrops:crop-sugarbeet-3",
       "morecrops:crop-sugarbeet-5"
     ],
-    "minTemp": 10,
+    "minTemp": 5,
     "maxTemp": 26,
     "minRain": 0.45,
     "maxRain": 0.85,

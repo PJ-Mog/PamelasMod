@@ -263,7 +263,13 @@ namespace PamelasMod {
         }),
         LootItem.Item(1f, 8f, 16f, new string[]
         {
-          "seeds-cabbage"
+          "seeds-cabbage",
+          "seeds-parsnip",
+          "seeds-pineapple",
+          "seeds-cassava",
+          "seeds-amaranth",
+          "seeds-peanut",
+          "seeds-sunflower"
         }),
         LootItem.Item(1f, 16f, 32f, new string[]
         {
