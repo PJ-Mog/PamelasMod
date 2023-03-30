@@ -29,13 +29,7 @@
   },
   {
     "op": "remove",
-    "path": "/attributes/panningDrops/@(sand|gravel)-.*/2",
-    "file": "game:blocktypes/wood/pan.json",
-    "side": "Server"
-  },
-  {
-    "op": "remove",
-    "path": "/attributes/panningDrops/@(sand|gravel)-.*/6",
+    "path": "/attributes/panningDrops/@(sand|gravel)-.*/18",
     "file": "game:blocktypes/wood/pan.json",
     "side": "Server"
   },
@@ -47,7 +41,13 @@
   },
   {
     "op": "remove",
-    "path": "/attributes/panningDrops/@(sand|gravel)-.*/18",
+    "path": "/attributes/panningDrops/@(sand|gravel)-.*/6",
+    "file": "game:blocktypes/wood/pan.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/panningDrops/@(sand|gravel)-.*/2",
     "file": "game:blocktypes/wood/pan.json",
     "side": "Server"
   },
@@ -171,13 +171,7 @@
   },
   {
     "op": "remove",
-    "path": "/attributes/panningDrops/@(bonysoil|bonysoil-.*)/2",
-    "file": "game:blocktypes/wood/pan.json",
-    "side": "Server"
-  },
-  {
-    "op": "remove",
-    "path": "/attributes/panningDrops/@(bonysoil|bonysoil-.*)/5",
+    "path": "/attributes/panningDrops/@(bonysoil|bonysoil-.*)/24",
     "file": "game:blocktypes/wood/pan.json",
     "side": "Server"
   },
@@ -189,7 +183,13 @@
   },
   {
     "op": "remove",
-    "path": "/attributes/panningDrops/@(bonysoil|bonysoil-.*)/24",
+    "path": "/attributes/panningDrops/@(bonysoil|bonysoil-.*)/5",
+    "file": "game:blocktypes/wood/pan.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "/attributes/panningDrops/@(bonysoil|bonysoil-.*)/2",
     "file": "game:blocktypes/wood/pan.json",
     "side": "Server"
   },

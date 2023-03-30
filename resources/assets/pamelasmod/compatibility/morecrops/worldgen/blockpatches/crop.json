@@ -15,7 +15,7 @@
       "avg": 5,
       "var": 5
     },
-    "chance": 1.0
+    "chance": 0.75
   },
   {
     "comment": "Small patches of yams",
@@ -33,7 +33,7 @@
       "avg": 5,
       "var": 5
     },
-    "chance": 1.0
+    "chance": 0.75
   },
   {
     "comment": "Small patches of cauliflower",
@@ -51,7 +51,7 @@
       "avg": 5,
       "var": 5
     },
-    "chance": 1.0
+    "chance": 0.75
   },
   {
     "comment": "Small patches of corn",
@@ -72,7 +72,7 @@
       "avg": 5,
       "var": 5
     },
-    "chance": 1.0
+    "chance": 0.75
   },
   {
     "comment": "Small patches of beet",
@@ -90,7 +90,7 @@
       "avg": 5,
       "var": 5
     },
-    "chance": 1.0
+    "chance": 0.75
   },
   {
     "comment": "Small patches of eggplant",
@@ -108,7 +108,7 @@
       "avg": 5,
       "var": 5
     },
-    "chance": 1.0
+    "chance": 0.75
   },
   {
     "comment": "Small patches of jalapeño",
@@ -128,7 +128,7 @@
       "avg": 5,
       "var": 5
     },
-    "chance": 1.0
+    "chance": 0.75
   },
   {
     "comment": "Small patches of bellpepper",
@@ -147,7 +147,7 @@
       "avg": 5,
       "var": 5
     },
-    "chance": 1.0
+    "chance": 0.75
   },
   {
     "comment": "Small patches of sugarcane",
@@ -165,7 +165,7 @@
       "avg": 5,
       "var": 5
     },
-    "chance": 1.0
+    "chance": 0.75
   },
   {
     "comment": "Small patches of sugarbeets",
@@ -183,7 +183,7 @@
       "avg": 5,
       "var": 5
     },
-    "chance": 1.0
+    "chance": 0.75
   },
   {
     "comment": "Small patches of oat",
@@ -201,6 +201,6 @@
       "avg": 5,
       "var": 5
     },
-    "chance": 1.0
+    "chance": 0.75
   }
 ]
