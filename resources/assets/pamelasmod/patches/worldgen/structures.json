@@ -2,7 +2,7 @@
   {
     "op": "replace",
     "path": "/chanceMultiplier",
-    "value": 0.8,
+    "value": 0.6,
     "file": "game:worldgen/structures.json",
     "side": "Server"
   },
@@ -44,7 +44,7 @@
   {
     "op": "replace",
     "path": "/structures/7/chance",
-    "value": 0.05,
+    "value": 0.15,
     "file": "game:worldgen/structures.json",
     "side": "Server"
   },

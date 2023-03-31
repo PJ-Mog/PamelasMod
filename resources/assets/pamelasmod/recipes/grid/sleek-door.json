@@ -1,0 +1,13 @@
+[
+  {
+    "width": 3,
+    "height": 1,
+    "ingredientPattern": "SDG",
+    "ingredients": {
+      "S": { "type": "item", "code": "game:saw-*", "isTool": true },
+      "D": { "type": "block", "code": "game:door-solid-*", "name": "wood" },
+      "G": { "type": "block", "code": "game:glassslab-*" }
+    },
+    "output": { "type": "block", "code": "game:door-sleek-windowed-{wood}" }
+  }
+]
