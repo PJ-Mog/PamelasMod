@@ -1,0 +1,90 @@
+[
+  {
+    "op": "add",
+    "path": "/attributes/tradeProps/selling/list/-",
+    "value": {
+      "type": "item",
+      "code": "morecrops:vegetable-potato",
+      "stacksize": 8,
+      "stock": {
+        "avg": 8,
+        "var": 2
+      },
+      "price": {
+        "avg": 2,
+        "var": 0.5
+      }
+    },
+    "file": "game:entities/humanoid/trader-agriculture.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "morecrops" }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/attributes/tradeProps/selling/list/-",
+    "value": {
+      "type": "item",
+      "code": "morecrops:seeds-potato",
+      "stacksize": 4,
+      "stock": {
+        "avg": 2,
+        "var": 0.5
+      },
+      "price": {
+        "avg": 4,
+        "var": 1
+      }
+    },
+    "file": "game:entities/humanoid/trader-agriculture.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "morecrops" }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/attributes/tradeProps/selling/list/-",
+    "value": {
+      "type": "item",
+      "code": "morecrops:seeds-cauliflower",
+      "stacksize": 2,
+      "stock": {
+        "avg": 2,
+        "var": 0.5
+      },
+      "price": {
+        "avg": 6,
+        "var": 1.5
+      }
+    },
+    "file": "game:entities/humanoid/trader-agriculture.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "morecrops" }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/attributes/tradeProps/selling/list/-",
+    "value": {
+      "type": "item",
+      "code": "morecrops:seeds-eggplant",
+      "stacksize": 4,
+      "stock": {
+        "avg": 2,
+        "var": 0.5
+      },
+      "price": {
+        "avg": 4,
+        "var": 1
+      }
+    },
+    "file": "game:entities/humanoid/trader-agriculture.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "morecrops" }
+    ]
+  }
+]
