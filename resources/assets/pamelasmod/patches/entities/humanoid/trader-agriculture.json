@@ -4,7 +4,7 @@
     "path": "/attributes/tradeProps/selling/list/-",
     "value": {
       "type": "item",
-      "code": "morecrops:vegetable-potato",
+      "code": "morecrops:grain-oat",
       "stacksize": 8,
       "stock": {
         "avg": 8,
@@ -26,7 +26,7 @@
     "path": "/attributes/tradeProps/selling/list/-",
     "value": {
       "type": "item",
-      "code": "morecrops:seeds-potato",
+      "code": "morecrops:seeds-yam",
       "stacksize": 4,
       "stock": {
         "avg": 2,
@@ -48,7 +48,7 @@
     "path": "/attributes/tradeProps/selling/list/-",
     "value": {
       "type": "item",
-      "code": "morecrops:seeds-cauliflower",
+      "code": "morecrops:seeds-sugarcane",
       "stacksize": 2,
       "stock": {
         "avg": 2,
