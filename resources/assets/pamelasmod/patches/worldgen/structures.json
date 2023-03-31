@@ -44,7 +44,7 @@
   {
     "op": "replace",
     "path": "/structures/7/chance",
-    "value": 0.5,
+    "value": 0.05,
     "file": "game:worldgen/structures.json",
     "side": "Server"
   },
@@ -129,6 +129,426 @@
     "op": "replace",
     "path": "/structures/28/minGroupDistance",
     "value": 300,
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "village-buildings-as-structures",
+      "chance": 0.3,
+      "schematics": ["overground/village/village-1"],
+      "offsetY": -5,
+      "placement": "surface",
+      "rocktypeRemapGroup": "surfaceruins",
+      "replacewithblocklayers": ["soil-low-normal", "soil-low-none"]
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "village-buildings-as-structures",
+      "chance": 0.8,
+      "schematics": ["overground/village/village-2"],
+      "offsetY": -3,
+      "placement": "surface",
+      "rocktypeRemapGroup": "surfaceruins",
+      "replacewithblocklayers": ["soil-low-normal", "soil-low-none"]
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "village-buildings-as-structures",
+      "chance": 0.3,
+      "schematics": ["overground/village/village-3"],
+      "offsetY": -3,
+      "placement": "surface",
+      "rocktypeRemapGroup": "surfaceruins",
+      "replacewithblocklayers": ["soil-low-normal", "soil-low-none"]
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "village-buildings-as-structures",
+      "chance": 0.3,
+      "schematics": ["overground/village/village-4"],
+      "offsetY": -3,
+      "placement": "surface",
+      "rocktypeRemapGroup": "surfaceruins",
+      "replacewithblocklayers": ["soil-low-normal", "soil-low-none"]
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "village-buildings-as-structures",
+      "chance": 0.8,
+      "schematics": ["overground/village/village-5"],
+      "offsetY": -6,
+      "placement": "surface",
+      "rocktypeRemapGroup": "surfaceruins",
+      "replacewithblocklayers": ["soil-low-normal", "soil-low-none"]
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "village-buildings-as-structures",
+      "chance": 0.3,
+      "schematics": ["overground/village/village-6"],
+      "offsetY": -6,
+      "placement": "surface",
+      "rocktypeRemapGroup": "surfaceruins",
+      "replacewithblocklayers": ["soil-low-normal", "soil-low-none"]
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "village-buildings-as-structures",
+      "chance": 0.3,
+      "schematics": ["overground/village/village-7"],
+      "offsetY": -6,
+      "placement": "surface",
+      "rocktypeRemapGroup": "surfaceruins",
+      "replacewithblocklayers": ["soil-low-normal", "soil-low-none"]
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "village-buildings-as-structures",
+      "chance": 0.8,
+      "schematics": ["overground/village/village-8"],
+      "offsetY": -7,
+      "placement": "surface",
+      "rocktypeRemapGroup": "surfaceruins",
+      "replacewithblocklayers": ["soil-low-normal", "soil-low-none"]
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "village-buildings-as-structures",
+      "chance": 0.3,
+      "schematics": ["overground/village/village-9"],
+      "offsetY": -2,
+      "placement": "surface",
+      "rocktypeRemapGroup": "surfaceruins",
+      "replacewithblocklayers": ["soil-low-normal", "soil-low-none"]
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "village-buildings-as-structures",
+      "chance": 0.3,
+      "schematics": ["overground/village/village-10"],
+      "offsetY": -6,
+      "placement": "surface",
+      "rocktypeRemapGroup": "surfaceruins",
+      "replacewithblocklayers": ["soil-low-normal", "soil-low-none"]
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "village-buildings-as-structures",
+      "chance": 0.5,
+      "schematics": ["overground/village/village-11"],
+      "offsetY": -6,
+      "placement": "surface",
+      "rocktypeRemapGroup": "surfaceruins",
+      "replacewithblocklayers": ["soil-low-normal", "soil-low-none"]
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "village-buildings-as-structures",
+      "chance": 0.5,
+      "schematics": ["overground/village/village-12"],
+      "offsetY": -6,
+      "placement": "surface",
+      "rocktypeRemapGroup": "surfaceruins",
+      "replacewithblocklayers": ["soil-low-normal", "soil-low-none"]
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "village-buildings-as-structures",
+      "chance": 0.5,
+      "schematics": ["overground/village/village-13"],
+      "offsetY": -6,
+      "placement": "surface",
+      "rocktypeRemapGroup": "surfaceruins",
+      "replacewithblocklayers": ["soil-low-normal", "soil-low-none"]
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "village-buildings-as-structures",
+      "chance": 0.5,
+      "schematics": ["overground/village/village-14"],
+      "offsetY": -1,
+      "placement": "surface",
+      "rocktypeRemapGroup": "surfaceruins",
+      "replacewithblocklayers": ["soil-low-normal", "soil-low-none"]
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "village-buildings-as-structures",
+      "chance": 0.3,
+      "schematics": ["overground/village/village-15"],
+      "offsetY": -6,
+      "placement": "surface",
+      "rocktypeRemapGroup": "surfaceruins",
+      "replacewithblocklayers": ["soil-low-normal", "soil-low-none"]
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "village-buildings-as-structures",
+      "chance": 0.3,
+      "schematics": ["overground/village/village-16"],
+      "offsetY": -1,
+      "placement": "surface",
+      "rocktypeRemapGroup": "surfaceruins",
+      "replacewithblocklayers": ["soil-low-normal", "soil-low-none"]
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "village-buildings-as-structures",
+      "chance": 0.3,
+      "schematics": ["overground/village/village-17"],
+      "offsetY": -6,
+      "placement": "surface",
+      "rocktypeRemapGroup": "surfaceruins",
+      "replacewithblocklayers": ["soil-low-normal", "soil-low-none"]
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "village-buildings-as-structures",
+      "chance": 0.3,
+      "schematics": ["overground/village/village-18"],
+      "offsetY": -1,
+      "placement": "surface",
+      "rocktypeRemapGroup": "surfaceruins",
+      "replacewithblocklayers": ["soil-low-normal", "soil-low-none"]
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "village-buildings-as-structures",
+      "chance": 0.3,
+      "schematics": ["overground/village/village-19"],
+      "offsetY": -1,
+      "placement": "surface",
+      "rocktypeRemapGroup": "surfaceruins",
+      "replacewithblocklayers": ["soil-low-normal", "soil-low-none"]
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "village-buildings-as-structures",
+      "chance": 0.3,
+      "schematics": ["overground/village/village-20"],
+      "offsetY": -1,
+      "placement": "surface",
+      "rocktypeRemapGroup": "surfaceruins",
+      "replacewithblocklayers": ["soil-low-normal", "soil-low-none"]
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "village-buildings-as-structures",
+      "chance": 0.3,
+      "schematics": ["overground/village/village-21"],
+      "offsetY": -5,
+      "placement": "surface",
+      "rocktypeRemapGroup": "surfaceruins",
+      "replacewithblocklayers": ["soil-low-normal", "soil-low-none"]
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "village-buildings-as-structures",
+      "chance": 0.3,
+      "schematics": ["overground/village/village-22"],
+      "offsetY": -2,
+      "placement": "surface",
+      "rocktypeRemapGroup": "surfaceruins",
+      "replacewithblocklayers": ["soil-low-normal", "soil-low-none"]
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "village-buildings-as-structures",
+      "chance": 0.02,
+      "schematics": ["overground/village/village-23"],
+      "offsetY": -3,
+      "placement": "surface",
+      "rocktypeRemapGroup": "surfaceruins",
+      "replacewithblocklayers": ["soil-low-normal", "soil-low-none"]
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "village-buildings-as-structures",
+      "chance": 0.3,
+      "schematics": ["overground/village/village-24"],
+      "offsetY": -5,
+      "placement": "surface",
+      "rocktypeRemapGroup": "surfaceruins",
+      "replacewithblocklayers": ["soil-low-normal", "soil-low-none"]
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "village-buildings-as-structures",
+      "chance": 0.3,
+      "schematics": ["overground/village/village-25"],
+      "offsetY": -3,
+      "placement": "surface",
+      "rocktypeRemapGroup": "surfaceruins",
+      "replacewithblocklayers": ["soil-low-normal", "soil-low-none"]
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "village-buildings-as-structures",
+      "chance": 0.3,
+      "schematics": ["overground/village/village-26"],
+      "offsetY": -10,
+      "placement": "surface",
+      "rocktypeRemapGroup": "surfaceruins",
+      "replacewithblocklayers": ["soil-low-normal", "soil-low-none"]
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "village-buildings-as-structures",
+      "chance": 0.3,
+      "schematics": ["overground/village/village-27"],
+      "offsetY": -8,
+      "placement": "surface",
+      "rocktypeRemapGroup": "surfaceruins",
+      "replacewithblocklayers": ["soil-low-normal", "soil-low-none"]
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "village-buildings-as-structures",
+      "chance": 0.3,
+      "schematics": ["overground/village/village-28"],
+      "offsetY": -22,
+      "placement": "surface",
+      "rocktypeRemapGroup": "surfaceruins",
+      "replacewithblocklayers": ["soil-low-normal", "soil-low-none"]
+    },
     "file": "game:worldgen/structures.json",
     "side": "Server"
   }
