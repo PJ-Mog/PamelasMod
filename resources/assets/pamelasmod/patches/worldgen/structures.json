@@ -184,7 +184,7 @@
       "code": "village-buildings-as-structures",
       "chance": 0.3,
       "schematics": ["overground/village/village-4"],
-      "offsetY": -3,
+      "offsetY": -6,
       "placement": "surface",
       "rocktypeRemapGroup": "surfaceruins",
       "replacewithblocklayers": ["soil-low-normal", "soil-low-none"]
