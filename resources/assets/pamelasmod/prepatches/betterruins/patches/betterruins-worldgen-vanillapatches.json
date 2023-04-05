@@ -2,7 +2,7 @@
   {
     "op": "replace",
     "path": "/36/value/chance",
-    "value": 0.1,
+    "value": 0.2,
     "file": "betterruins:patches/betterruins-worldgen-vanillapatches.json",
     "side": "Server",
     "dependsOn": [
