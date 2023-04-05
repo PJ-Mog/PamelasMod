@@ -8,14 +8,5 @@
     "dependsOn": [
       { "modid": "acorns" }
     ]
-  },
-  {
-    "op": "remove",
-    "path": "/ingredients/0/quantity",
-    "file": "acorns:recipes/barrel/acorns-leached.json",
-    "side": "Server",
-    "dependsOn": [
-      { "modid": "acorns" }
-    ]
   }
 ]

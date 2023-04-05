@@ -1,7 +1,7 @@
 [
   {
     "op": "replace",
-    "path": "/grindingProps/quantity",
+    "path": "/grindingProps/grindedStack/quantity",
     "value": 2,
     "file": "acorns:itemtypes/food/acorn-meal.json",
     "side": "Server",
