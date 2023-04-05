@@ -1,0 +1,72 @@
+[
+  {
+    "op": "replace",
+    "path": "/0/value/minGroupDistance",
+    "value": 2500,
+    "file": "betterruins:patches/betterruins-worldgen-megastructures.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "betterruins" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/1/value/minGroupDistance",
+    "value": 2500,
+    "file": "betterruins:patches/betterruins-worldgen-megastructures.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "betterruins" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/2/value/minGroupDistance",
+    "value": 2500,
+    "file": "betterruins:patches/betterruins-worldgen-megastructures.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "betterruins" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/3/value/minGroupDistance",
+    "value": 2500,
+    "file": "betterruins:patches/betterruins-worldgen-megastructures.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "betterruins" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/4/value/minGroupDistance",
+    "value": 2500,
+    "file": "betterruins:patches/betterruins-worldgen-megastructures.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "betterruins" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/5/value/minGroupDistance",
+    "value": 2500,
+    "file": "betterruins:patches/betterruins-worldgen-megastructures.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "betterruins" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/6/value/minGroupDistance",
+    "value": 2500,
+    "file": "betterruins:patches/betterruins-worldgen-megastructures.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "betterruins" }
+    ]
+  }
+]

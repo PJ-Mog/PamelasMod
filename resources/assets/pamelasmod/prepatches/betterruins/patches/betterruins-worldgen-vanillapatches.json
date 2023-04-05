@@ -1,0 +1,42 @@
+[
+  {
+    "op": "replace",
+    "path": "/36/value/chance",
+    "value": 0.1,
+    "file": "betterruins:patches/betterruins-worldgen-vanillapatches.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "betterruins" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/37/value/chance",
+    "value": 0.05,
+    "file": "betterruins:patches/betterruins-worldgen-vanillapatches.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "betterruins" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/38/value/chance",
+    "value": 0.05,
+    "file": "betterruins:patches/betterruins-worldgen-vanillapatches.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "betterruins" }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/39/enabled",
+    "value": false,
+    "file": "betterruins:patches/betterruins-worldgen-vanillapatches.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "betterruins" }
+    ]
+  }
+]

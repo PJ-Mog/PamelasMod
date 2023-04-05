@@ -1,0 +1,22 @@
+[
+  {
+    "op": "replace",
+    "path": "/0/value/chance",
+    "value": 0.25,
+    "file": "tpnet:patches/worldgen/road.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "tpnet" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/1/value/chance",
+    "value": 0.01,
+    "file": "tpnet:patches/worldgen/road.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "tpnet" }
+    ]
+  }
+]

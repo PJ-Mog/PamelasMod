@@ -1,0 +1,8 @@
+[
+  {
+    "op": "remove",
+    "path": "/attributesByType/*-resource/stacks/7",
+    "file": "game:itemtypes/meta/stackrandomizer.json",
+    "side": "Server"
+  }
+]

@@ -187,43 +187,35 @@ namespace PamelasMod {
           "shovel-obsidian",
           "knife-generic-obsidian"
         }),
-        LootItem.Item(0.5f, 1f, 1f, new string[]
+        LootItem.Item(0.5625f, 1f, 1f, new string[]
         {
           "axe-felling-copper"
         }),
-        LootItem.Item(0.5f, 1f, 1f, new string[]
+        LootItem.Item(0.5625f, 1f, 1f, new string[]
         {
           "knife-generic-copper"
         }),
-        LootItem.Item(0.5f, 1f, 1f, new string[]
+        LootItem.Item(0.5625f, 1f, 1f, new string[]
         {
           "shovel-copper"
         }),
-        LootItem.Item(0.25f, 1f, 1f, new string[]
-        {
-          "scythe-copper"
-        }),
-        LootItem.Item(0.25f, 1f, 1f, new string[]
+        LootItem.Item(0.3125f, 1f, 1f, new string[]
         {
           "blade-falx-copper"
         }),
-        LootItem.Item(0.25f, 1f, 1f, new string[]
+        LootItem.Item(0.28125f, 1f, 1f, new string[]
         {
           "axe-felling-tinbronze"
         }),
-        LootItem.Item(0.25f, 1f, 1f, new string[]
+        LootItem.Item(0.28125f, 1f, 1f, new string[]
         {
           "knife-generic-tinbronze"
         }),
-        LootItem.Item(0.25f, 1f, 1f, new string[]
+        LootItem.Item(0.28125f, 1f, 1f, new string[]
         {
           "shovel-tinbronze"
         }),
-        LootItem.Item(0.125f, 1f, 1f, new string[]
-        {
-          "scythe-tinbronze"
-        }),
-        LootItem.Item(0.125f, 1f, 1f, new string[]
+        LootItem.Item(0.15625f, 1f, 1f, new string[]
         {
           "blade-falx-tinbronze"
         }),
