@@ -32,14 +32,40 @@
     "path": "/structures/4/chance",
     "value": 0.025,
     "file": "game:worldgen/structures.json",
-    "side": "Server"
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "betterruins", "invert": true }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/structures/4/chance",
+    "value": 0.2,
+    "file": "game:worldgen/structures.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "betterruins" }
+    ]
   },
   {
     "op": "replace",
     "path": "/structures/5/chance",
     "value": 0.025,
     "file": "game:worldgen/structures.json",
-    "side": "Server"
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "betterruins", "invert": true }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/structures/5/chance",
+    "value": 0.2,
+    "file": "game:worldgen/structures.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "betterruins" }
+    ]
   },
   {
     "op": "replace",
@@ -53,7 +79,20 @@
     "path": "/structures/8/chance",
     "value": 0.03,
     "file": "game:worldgen/structures.json",
-    "side": "Server"
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "betterruins", "invert": true }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/structures/8/chance",
+    "value": 0.05,
+    "file": "game:worldgen/structures.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "betterruins" }
+    ]
   },
   {
     "op": "replace",
@@ -160,7 +199,28 @@
       "replacewithblocklayers": ["soil-low-normal", "soil-low-none"]
     },
     "file": "game:worldgen/structures.json",
-    "side": "Server"
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "betterruins", "invert": true }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "village-buildings-as-structures",
+      "chance": 0.5,
+      "schematics": ["overground/village/village-2"],
+      "offsetY": -3,
+      "placement": "surface",
+      "rocktypeRemapGroup": "surfaceruins",
+      "replacewithblocklayers": ["soil-low-normal", "soil-low-none"]
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "betterruins" }
+    ]
   },
   {
     "op": "add",
@@ -460,7 +520,28 @@
       "replacewithblocklayers": ["soil-low-normal", "soil-low-none"]
     },
     "file": "game:worldgen/structures.json",
-    "side": "Server"
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "betterruins", "invert": true }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/structures/-",
+    "value": {
+      "code": "village-buildings-as-structures",
+      "chance": 0.003,
+      "schematics": ["overground/village/village-22"],
+      "offsetY": -2,
+      "placement": "surface",
+      "rocktypeRemapGroup": "surfaceruins",
+      "replacewithblocklayers": ["soil-low-normal", "soil-low-none"]
+    },
+    "file": "game:worldgen/structures.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "betterruins" }
+    ]
   },
   {
     "op": "add",

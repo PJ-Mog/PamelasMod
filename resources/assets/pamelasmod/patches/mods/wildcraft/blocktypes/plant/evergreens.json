@@ -1,0 +1,12 @@
+[
+  {
+    "op": "replace",
+    "path": "/attributes/isPoisonousByType/*-poisonoak-normal",
+    "value": false,
+    "file": "wildcraft:blocktypes/plant/evergreens.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  }
+]

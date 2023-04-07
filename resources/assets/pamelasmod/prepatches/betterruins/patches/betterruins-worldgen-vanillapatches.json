@@ -2,7 +2,7 @@
   {
     "op": "replace",
     "path": "/36/value/chance",
-    "value": 0.2,
+    "value": 0.03,
     "file": "betterruins:patches/betterruins-worldgen-vanillapatches.json",
     "side": "Server",
     "dependsOn": [
@@ -12,7 +12,27 @@
   {
     "op": "replace",
     "path": "/37/value/chance",
-    "value": 0.05,
+    "value": 5,
+    "file": "betterruins:patches/betterruins-worldgen-vanillapatches.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "betterruins" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/37/value/quantityStructures/avg",
+    "value": 8,
+    "file": "betterruins:patches/betterruins-worldgen-vanillapatches.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "betterruins" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/37/value/quantityStructures/var",
+    "value": 4,
     "file": "betterruins:patches/betterruins-worldgen-vanillapatches.json",
     "side": "Server",
     "dependsOn": [
@@ -22,7 +42,47 @@
   {
     "op": "replace",
     "path": "/38/value/chance",
-    "value": 0.05,
+    "value": 5,
+    "file": "betterruins:patches/betterruins-worldgen-vanillapatches.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "betterruins" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/38/value/quantityStructures/avg",
+    "value": 8,
+    "file": "betterruins:patches/betterruins-worldgen-vanillapatches.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "betterruins" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/38/value/quantityStructures/var",
+    "value": 4,
+    "file": "betterruins:patches/betterruins-worldgen-vanillapatches.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "betterruins" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/38/value/schematics/15/weight",
+    "value": 100,
+    "file": "betterruins:patches/betterruins-worldgen-vanillapatches.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "betterruins" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/38/value/schematics/16/weight",
+    "value": 100,
     "file": "betterruins:patches/betterruins-worldgen-vanillapatches.json",
     "side": "Server",
     "dependsOn": [

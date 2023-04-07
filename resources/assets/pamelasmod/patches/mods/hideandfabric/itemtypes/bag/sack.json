@@ -1,0 +1,12 @@
+[
+  {
+    "op": "replace",
+    "path": "/attributes/backpack/quantitySlots",
+    "value": 8,
+    "file": "hideandfabric:itemtypes/bag/sack.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "hideandfabric" }
+    ]
+  }
+]

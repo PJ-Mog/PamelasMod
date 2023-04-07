@@ -1,0 +1,62 @@
+[
+  {
+    "op": "replace",
+    "path": "/0/value/chance",
+    "value": 0.2,
+    "file": "betterruins:patches/betterruins-worldgen-translocators.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "betterruins" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/0/value/minGroupDistance",
+    "value": 750,
+    "file": "betterruins:patches/betterruins-worldgen-translocators.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "betterruins" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/1/value/chance",
+    "value": 0.2,
+    "file": "betterruins:patches/betterruins-worldgen-translocators.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "betterruins" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/1/value/minGroupDistance",
+    "value": 750,
+    "file": "betterruins:patches/betterruins-worldgen-translocators.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "betterruins" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/2/value/chance",
+    "value": 0.2,
+    "file": "betterruins:patches/betterruins-worldgen-translocators.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "betterruins" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/2/value/minGroupDistance",
+    "value": 750,
+    "file": "betterruins:patches/betterruins-worldgen-translocators.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "betterruins" }
+    ]
+  }
+]

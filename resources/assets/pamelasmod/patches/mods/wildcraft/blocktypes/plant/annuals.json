@@ -1,0 +1,22 @@
+[
+  {
+    "op": "replace",
+    "path": "/attributes/isPoisonousByType/*-poisonoak-normal",
+    "value": false,
+    "file": "wildcraft:blocktypes/plant/annuals.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/isPoisonousByType/*-stingingnettle-normal",
+    "value": false,
+    "file": "wildcraft:blocktypes/plant/annuals.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  }
+]

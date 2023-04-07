@@ -1,0 +1,192 @@
+[
+  {
+    "op": "replace",
+    "path": "/attributes/nutritionPropsWhenInMealByType/*-wolfberry/health",
+    "value": 8,
+    "file": "wildcraft:itemtypes/food/fruit.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/nutritionPropsWhenInMealByType/*-snowberry/health",
+    "value": 2,
+    "file": "wildcraft:itemtypes/food/fruit.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/nutritionPropsByType/*-wolfberry/health",
+    "value": 8,
+    "file": "wildcraft:itemtypes/food/fruit.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/nutritionPropsByType/*-elderberry/health",
+    "value": 0.5,
+    "file": "wildcraft:itemtypes/food/fruit.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/nutritionPropsByType/*-snowberry/health",
+    "value": 2,
+    "file": "wildcraft:itemtypes/food/fruit.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/transitionablePropsByType/*-snowberry/0/freshHours/avg",
+    "value": 360,
+    "file": "wildcraft:itemtypes/food/fruit.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/transitionablePropsByType/*-snowberry/0/transitionHours/avg",
+    "value": 36,
+    "file": "wildcraft:itemtypes/food/fruit.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/transitionablePropsByType/*-cloudberry/0/freshHours/avg",
+    "value": 360,
+    "file": "wildcraft:itemtypes/food/fruit.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/transitionablePropsByType/*-cloudberry/0/transitionHours/avg",
+    "value": 36,
+    "file": "wildcraft:itemtypes/food/fruit.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/transitionablePropsByType/@*-(strawberry|honeysuckle)/0/freshHours/avg",
+    "value": 360,
+    "file": "wildcraft:itemtypes/food/fruit.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/transitionablePropsByType/@*-(strawberry|honeysuckle)/0/transitionHours/avg",
+    "value": 36,
+    "file": "wildcraft:itemtypes/food/fruit.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/transitionablePropsByType/*-elderberry/0/freshHours/avg",
+    "value": 360,
+    "file": "wildcraft:itemtypes/food/fruit.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/transitionablePropsByType/*-elderberry/0/transitionHours/avg",
+    "value": 36,
+    "file": "wildcraft:itemtypes/food/fruit.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/transitionablePropsByType/*-huckleberry/0/freshHours/avg",
+    "value": 360,
+    "file": "wildcraft:itemtypes/food/fruit.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/transitionablePropsByType/*-huckleberry/0/transitionHours/avg",
+    "value": 36,
+    "file": "wildcraft:itemtypes/food/fruit.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/transitionablePropsByType/*-dogrose/0/freshHours/avg",
+    "value": 360,
+    "file": "wildcraft:itemtypes/food/fruit.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/transitionablePropsByType/*-dogrose/0/transitionHours/avg",
+    "value": 36,
+    "file": "wildcraft:itemtypes/food/fruit.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/transitionablePropsByType/*/0/freshHours/avg",
+    "value": 360,
+    "file": "wildcraft:itemtypes/food/fruit.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/transitionablePropsByType/*/0/transitionHours/avg",
+    "value": 36,
+    "file": "wildcraft:itemtypes/food/fruit.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "op": "replace",
+    "path": "/0/value/chance",
+    "value": 0.25,
+    "file": "betterruins:patches/betterruins-worldgen-ruins.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "betterruins" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/0/value/minGroupDistance",
+    "value": 200,
+    "file": "betterruins:patches/betterruins-worldgen-ruins.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "betterruins" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/1/value/minGroupDistance",
+    "value": 200,
+    "file": "betterruins:patches/betterruins-worldgen-ruins.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "betterruins" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/2/value/chance",
+    "value": 0.25,
+    "file": "betterruins:patches/betterruins-worldgen-ruins.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "betterruins" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/2/value/minGroupDistance",
+    "value": 200,
+    "file": "betterruins:patches/betterruins-worldgen-ruins.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "betterruins" }
+    ]
+  }
+]

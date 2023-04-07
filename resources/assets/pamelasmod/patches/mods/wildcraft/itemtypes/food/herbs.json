@@ -1,0 +1,42 @@
+[
+  {
+    "op": "replace",
+    "path": "/attributes/nutritionPropsWhenInMealByType/*-poisonoak/health",
+    "value": 2,
+    "file": "wildcraft:itemtypes/food/herbs.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/nutritionPropsByType/*-poisonoak/health",
+    "value": 1,
+    "file": "wildcraft:itemtypes/food/herbs.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/nutritionPropsByType/*-stingingnettle/health",
+    "value": 1,
+    "file": "wildcraft:itemtypes/food/herbs.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/transitionablePropsByType/*/0/freshHours/avg",
+    "value": 480,
+    "file": "wildcraft:itemtypes/food/herbs.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  }
+]

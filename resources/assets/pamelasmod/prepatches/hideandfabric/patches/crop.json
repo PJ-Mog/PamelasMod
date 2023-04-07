@@ -1,0 +1,32 @@
+[
+  {
+    "op": "replace",
+    "path": "/0/value/chance",
+    "value": 1.5,
+    "file": "hideandfabric:patches/crop.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "hideandfabric" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/1/value/chance",
+    "value": 1.5,
+    "file": "hideandfabric:patches/crop.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "hideandfabric" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/2/value/chance",
+    "value": 1.5,
+    "file": "hideandfabric:patches/crop.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "hideandfabric" }
+    ]
+  }
+]

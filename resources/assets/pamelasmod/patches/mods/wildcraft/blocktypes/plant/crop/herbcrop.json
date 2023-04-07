@@ -1,0 +1,102 @@
+[
+  {
+    "op": "replace",
+    "path": "/dropsByType/*-bearleek-3/2/quantity/avg",
+    "value": 2,
+    "file": "wildcraft:blocktypes/plant/crop/herbcrop.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/dropsByType/*-marshmallow-3/2/quantity/avg",
+    "value": 2,
+    "file": "wildcraft:blocktypes/plant/crop/herbcrop.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/dropsByType/*-chicory-3/2/quantity/avg",
+    "value": 2,
+    "file": "wildcraft:blocktypes/plant/crop/herbcrop.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/dropsByType/*-liquorice-3/2/quantity/avg",
+    "value": 2,
+    "file": "wildcraft:blocktypes/plant/crop/herbcrop.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/dropsByType/*-celery-3/2/quantity/avg",
+    "value": 2,
+    "file": "wildcraft:blocktypes/plant/crop/herbcrop.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/dropsByType/*-3/1/quantity/avg",
+    "value": 2,
+    "file": "wildcraft:blocktypes/plant/crop/herbcrop.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/dropsByType/*-3/1/quantity/var",
+    "value": 0,
+    "file": "wildcraft:blocktypes/plant/crop/herbcrop.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/dropsByType/*-2/1/quantity/avg",
+    "value": 2,
+    "file": "wildcraft:blocktypes/plant/crop/herbcrop.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/dropsByType/*-2/1/quantity/var",
+    "value": 0,
+    "file": "wildcraft:blocktypes/plant/crop/herbcrop.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/dropsByType/*/0/quantity/avg",
+    "value": 1,
+    "file": "wildcraft:blocktypes/plant/crop/herbcrop.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  }
+]

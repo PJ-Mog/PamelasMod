@@ -1,0 +1,22 @@
+[
+  {
+    "op": "replace",
+    "path": "/transitionablePropsByType/*-green/0/freshHours/avg",
+    "value": 1000,
+    "file": "wildcraft:itemtypes/plant/clipping.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/transitionablePropsByType/*-green/0/transitionHours/avg",
+    "value": 360,
+    "file": "wildcraft:itemtypes/plant/clipping.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  }
+]

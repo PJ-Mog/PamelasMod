@@ -1,0 +1,22 @@
+[
+  {
+    "op": "replace",
+    "path": "/transitionablePropsByType/*-green/0/freshHours/avg",
+    "value": 360,
+    "file": "wildcraft:itemtypes/resources/pressedmash.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/transitionablePropsByType/*-green/0/transitionHours/avg",
+    "value": 120,
+    "file": "wildcraft:itemtypes/resources/pressedmash.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  }
+]
