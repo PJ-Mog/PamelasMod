@@ -1,0 +1,9 @@
+[
+  {
+    "op": "add",
+    "path": "/enabled",
+    "value": false,
+    "file": "game:itemtypes/tool/shield.json",
+    "side": "Server"
+  }
+]
