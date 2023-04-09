@@ -12,7 +12,7 @@
   {
     "op": "replace",
     "path": "/37/value/chance",
-    "value": 7,
+    "value": 5,
     "file": "betterruins:patches/betterruins-worldgen-vanillapatches.json",
     "side": "Server",
     "dependsOn": [
@@ -22,7 +22,7 @@
   {
     "op": "replace",
     "path": "/37/value/quantityStructures/avg",
-    "value": 4,
+    "value": 8,
     "file": "betterruins:patches/betterruins-worldgen-vanillapatches.json",
     "side": "Server",
     "dependsOn": [
@@ -32,26 +32,6 @@
   {
     "op": "replace",
     "path": "/37/value/quantityStructures/var",
-    "value": 1,
-    "file": "betterruins:patches/betterruins-worldgen-vanillapatches.json",
-    "side": "Server",
-    "dependsOn": [
-      { "modid": "betterruins" }
-    ]
-  },
-  {
-    "op": "replace",
-    "path": "/38/value/chance",
-    "value": 7,
-    "file": "betterruins:patches/betterruins-worldgen-vanillapatches.json",
-    "side": "Server",
-    "dependsOn": [
-      { "modid": "betterruins" }
-    ]
-  },
-  {
-    "op": "replace",
-    "path": "/38/value/quantityStructures/avg",
     "value": 4,
     "file": "betterruins:patches/betterruins-worldgen-vanillapatches.json",
     "side": "Server",
@@ -61,8 +41,28 @@
   },
   {
     "op": "replace",
+    "path": "/38/value/chance",
+    "value": 5,
+    "file": "betterruins:patches/betterruins-worldgen-vanillapatches.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "betterruins" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/38/value/quantityStructures/avg",
+    "value": 8,
+    "file": "betterruins:patches/betterruins-worldgen-vanillapatches.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "betterruins" }
+    ]
+  },
+  {
+    "op": "replace",
     "path": "/38/value/quantityStructures/var",
-    "value": 1,
+    "value": 4,
     "file": "betterruins:patches/betterruins-worldgen-vanillapatches.json",
     "side": "Server",
     "dependsOn": [
