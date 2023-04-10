@@ -1,0 +1,23 @@
+[
+  {
+    "op": "remove",
+    "path": "$..statModifiersByType[?(@..walkSpeed < 0)]..walkSpeed",
+    "patchMultiple": true,
+    "file": "game:itemtypes/wearable/armor.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "$..statModifiersByType[?(@..healingeffectivness < 0)]..healingeffectivness",
+    "patchMultiple": true,
+    "file": "game:itemtypes/wearable/armor.json",
+    "side": "Server"
+  },
+  {
+    "op": "remove",
+    "path": "$..statModifiersByType[?(@..hungerrate > 0)]..hungerrate",
+    "patchMultiple": true,
+    "file": "game:itemtypes/wearable/armor.json",
+    "side": "Server"
+  }
+]

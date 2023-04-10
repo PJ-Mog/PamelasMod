@@ -2,7 +2,7 @@
   "type": "Code",
   "name": "Pamela's Mod",
   "modid": "pamelasmod",
-  "version": "1.4.7",
+  "version": "1.5.0",
   "description": "",
   "website": "https://github.com/PJ-Mog/PamelasMod",
   "authors": [ "Pamela" ],
@@ -10,7 +10,7 @@
   "dependencies": {
     "game": "",
     "survival": "",
-    "patchwars": "0.0.1"
+    "patchwars": "0.1.0"
   },
   "side": "Universal",
   "requiredOnClient": true,
