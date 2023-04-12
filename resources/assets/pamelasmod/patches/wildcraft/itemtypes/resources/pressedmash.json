@@ -1,7 +1,7 @@
 [
   {
     "op": "replace",
-    "path": "/transitionablePropsByType/*-green/0/freshHours/avg",
+    "path": "$.transitionableProps[?(@..type == 'Perish')].freshHours.avg",
     "value": 360,
     "file": "wildcraft:itemtypes/resources/pressedmash.json",
     "side": "Server",
@@ -11,7 +11,7 @@
   },
   {
     "op": "replace",
-    "path": "/transitionablePropsByType/*-green/0/transitionHours/avg",
+    "path": "$.transitionableProps[?(@..type == 'Perish')].transitionHours.avg",
     "value": 120,
     "file": "wildcraft:itemtypes/resources/pressedmash.json",
     "side": "Server",

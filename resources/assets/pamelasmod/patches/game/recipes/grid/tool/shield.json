@@ -1,0 +1,19 @@
+[
+  {
+    "op": "add",
+    "path": "$[*]",
+    "pathAppend": "/enabled",
+    "value": false,
+    "patchMultiple": true,
+    "file": "game:recipes/grid/tool/shield.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "$[*].enabled",
+    "value": false,
+    "patchMultiple": true,
+    "file": "game:recipes/grid/tool/shield.json",
+    "side": "Server"
+  }
+]

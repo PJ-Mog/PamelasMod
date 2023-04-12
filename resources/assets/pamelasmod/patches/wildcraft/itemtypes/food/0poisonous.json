@@ -1,0 +1,20 @@
+[
+  {
+    "op": "replace",
+    "path": "$.nutritionPropsByType[?(@..health < 0)]",
+    "pathAppend": "/health",
+    "value": 0,
+    "patchMultiple": true,
+    "file": "wildcraft:itemtypes/food/*",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "$.attributes.nutritionPropsWhenInMealByType[?(@..health < 0)]",
+    "pathAppend": "/health",
+    "value": 0,
+    "patchMultiple": true,
+    "file": "wildcraft:itemtypes/food/*",
+    "side": "Server"
+  }
+]

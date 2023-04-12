@@ -1,0 +1,13 @@
+[
+  {
+    "op": "add",
+    "path": "/sounds",
+    "value": {
+      "place": "game:block/plant",
+      "break": "game:block/plant",
+      "hit": "game:block/plant"
+    },
+    "file": "morecrops:blocktypes/plant/crop/*",
+    "side": "Server"
+  }
+]
