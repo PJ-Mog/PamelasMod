@@ -1,5 +1,6 @@
 {
   "game:block-quern-claystone": "Claystone Quern",
   "game:block-quern-slate": "Slate Quern",
+  "game:block-quern-chert": "Chert Quern",
   "game:block-muddygravel-*": "Muddy Gravel"
 }

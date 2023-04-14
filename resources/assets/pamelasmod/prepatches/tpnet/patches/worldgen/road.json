@@ -18,5 +18,25 @@
     "dependsOn": [
       { "modid": "tpnet" }
     ]
+  },
+  {
+    "op": "replace",
+    "path": "/0/value/minGroupDistance",
+    "value": 175,
+    "file": "tpnet:patches/worldgen/road.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "tpnet" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "/1/value/minGroupDistance",
+    "value": 175,
+    "file": "tpnet:patches/worldgen/road.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "tpnet" }
+    ]
   }
 ]

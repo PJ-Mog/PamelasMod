@@ -1,0 +1,35 @@
+[
+  {
+    "ingredientPattern": "AC",
+    "ingredients": {
+      "A": { "type": "block", "code": "game:crate", "attributes": { "type": "wood-aged" } },
+      "C": { "type": "item", "code": "game:chisel-*", "isTool": true, "toolDurabilityCost": 0 }
+    },
+    "shapeless": true,
+    "width": 1,
+    "height": 2,
+    "output": { "type": "block", "code": "game:crate", "attributes": { "type": "wood-aged", "lidState": "closed" } }
+  },
+  {
+    "ingredientPattern": "AC",
+    "ingredients": {
+      "A": { "type": "block", "code": "game:crate", "attributes": { "type": "wood-aged" } },
+      "C": { "type": "item", "code": "game:knife-*", "isTool": true, "toolDurabilityCost": 0 }
+    },
+    "shapeless": true,
+    "width": 1,
+    "height": 2,
+    "output": { "type": "block", "code": "game:crate", "attributes": { "type": "wood-aged", "lidState": "closed" } }
+  },
+  {
+    "ingredientPattern": "AC",
+    "ingredients": {
+      "A": { "type": "block", "code": "game:crate", "attributes": { "type": "wood-aged" } },
+      "C": { "type": "item", "code": "game:shears-*", "isTool": true, "toolDurabilityCost": 0 }
+    },
+    "shapeless": true,
+    "width": 1,
+    "height": 2,
+    "output": { "type": "block", "code": "game:crate", "attributes": { "type": "wood-aged", "lidState": "closed" } }
+  }
+]

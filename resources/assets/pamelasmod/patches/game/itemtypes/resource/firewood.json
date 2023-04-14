@@ -3,7 +3,7 @@
     "op": "replace",
     "path": "/combustibleProps/burnDuration",
     "value": 700,
-    "file": "game:itemtypes/resource/firewood.json",
+    "file": "game:itemtypes/resource/firewood*",
     "side": "Server"
   }
 ]
