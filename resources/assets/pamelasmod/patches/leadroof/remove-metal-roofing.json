@@ -1,0 +1,102 @@
+[
+  {
+    "op": "add",
+    "path": "/enabled",
+    "value": false,
+    "file": "leadroof:blocktypes/flatroofing/sheetroofing*",
+    "dependsOn": [
+      { "modid": "leadroof" }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/enabled",
+    "value": false,
+    "file": "leadroof:blocktypes/fullblock/fullshingleblock.json",
+    "dependsOn": [
+      { "modid": "leadroof" }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/enabled",
+    "value": false,
+    "file": "leadroof:blocktypes/roofing/slantedroofing*",
+    "dependsOn": [
+      { "modid": "leadroof" }
+    ]
+  },
+
+  {
+    "op": "remove",
+    "path": "$.variantgroups[?(@.code == 'material')].states[?(@ == 'copper')]",
+    "patchMultiple": true,
+    "file": "leadroof:blocktypes/shallowroofing/*",
+    "dependsOn": [
+      { "modid": "leadroof" }
+    ]
+  },
+  {
+    "op": "remove",
+    "path": "$.variantgroups[?(@.code == 'material')].states[?(@ == 'zinc')]",
+    "patchMultiple": true,
+    "file": "leadroof:blocktypes/shallowroofing/*",
+    "dependsOn": [
+      { "modid": "leadroof" }
+    ]
+  },
+  {
+    "op": "remove",
+    "path": "$.variantgroups[?(@.code == 'material')].states[?(@ == 'lead')]",
+    "patchMultiple": true,
+    "file": "leadroof:blocktypes/shallowroofing/*",
+    "dependsOn": [
+      { "modid": "leadroof" }
+    ]
+  },
+  {
+    "op": "remove",
+    "path": "$.variantgroups[?(@.code == 'material')].states[?(@ == 'molybdochalkos')]",
+    "patchMultiple": true,
+    "file": "leadroof:blocktypes/shallowroofing/*",
+    "dependsOn": [
+      { "modid": "leadroof" }
+    ]
+  },
+  {
+    "op": "remove",
+    "path": "$.variantgroups[?(@.code == 'material')].states[?(@ == 'slate')]",
+    "patchMultiple": true,
+    "file": "leadroof:blocktypes/shallowroofing/*",
+    "dependsOn": [
+      { "modid": "leadroof" }
+    ]
+  },
+  {
+    "op": "remove",
+    "path": "$.variantgroups[?(@.code == 'material')].states[?(@ == 'agedthatch')]",
+    "patchMultiple": true,
+    "file": "leadroof:blocktypes/shallowroofing/*",
+    "dependsOn": [
+      { "modid": "leadroof" }
+    ]
+  },
+  {
+    "op": "remove",
+    "path": "$.variantgroups[?(@.code == 'material')].states[?(@ == 'thatch')]",
+    "patchMultiple": true,
+    "file": "leadroof:blocktypes/shallowroofing/*",
+    "dependsOn": [
+      { "modid": "leadroof" }
+    ]
+  },
+  {
+    "op": "remove",
+    "path": "$.variantgroups[?(@.code == 'material')].states[?(@ == 'bamboo')]",
+    "patchMultiple": true,
+    "file": "leadroof:blocktypes/shallowroofing/*",
+    "dependsOn": [
+      { "modid": "leadroof" }
+    ]
+  }
+]

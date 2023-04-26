@@ -1,0 +1,137 @@
+[
+  {
+    "op": "add",
+    "path": "$[*]",
+    "pathAppend": "/enabled",
+    "value": false,
+    "patchMultiple": true,
+    "file": "leadroof:recipes/grid/metalshingleblock.json",
+    "dependsOn": [
+      { "modid": "leadroof" }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "$[?(@..code == 'game:metalplate-lead')]",
+    "pathAppend": "/enabled",
+    "value": false,
+    "patchMultiple": true,
+    "file": "leadroof:recipes/grid/roofing.json",
+    "dependsOn": [
+      { "modid": "leadroof" }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "$[?(@..code == 'game:metalplate-zinc')]",
+    "pathAppend": "/enabled",
+    "value": false,
+    "patchMultiple": true,
+    "file": "leadroof:recipes/grid/roofing.json",
+    "dependsOn": [
+      { "modid": "leadroof" }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "$[?(@..code == 'game:metalplate-molybdochalkos')]",
+    "pathAppend": "/enabled",
+    "value": false,
+    "patchMultiple": true,
+    "file": "leadroof:recipes/grid/roofing.json",
+    "dependsOn": [
+      { "modid": "leadroof" }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "$[?(@..code == 'game:metalplate-copper')]",
+    "pathAppend": "/enabled",
+    "value": false,
+    "patchMultiple": true,
+    "file": "leadroof:recipes/grid/roofing.json",
+    "dependsOn": [
+      { "modid": "leadroof" }
+    ]
+  },
+  {
+    "op": "remove",
+    "path": "$..allowedVariants[?(@ == 'copper')]",
+    "value": false,
+    "patchMultiple": true,
+    "file": "leadroof:recipes/grid/shallowroofing.json",
+    "dependsOn": [
+      { "modid": "leadroof" }
+    ]
+  },
+  {
+    "op": "remove",
+    "path": "$..allowedVariants[?(@ == 'lead')]",
+    "value": false,
+    "patchMultiple": true,
+    "file": "leadroof:recipes/grid/shallowroofing.json",
+    "dependsOn": [
+      { "modid": "leadroof" }
+    ]
+  },
+  {
+    "op": "remove",
+    "path": "$..allowedVariants[?(@ == 'zinc')]",
+    "value": false,
+    "patchMultiple": true,
+    "file": "leadroof:recipes/grid/shallowroofing.json",
+    "dependsOn": [
+      { "modid": "leadroof" }
+    ]
+  },
+  {
+    "op": "remove",
+    "path": "$..allowedVariants[?(@ == 'molybdochalkos')]",
+    "value": false,
+    "patchMultiple": true,
+    "file": "leadroof:recipes/grid/shallowroofing.json",
+    "dependsOn": [
+      { "modid": "leadroof" }
+    ]
+  },
+  {
+    "op": "remove",
+    "path": "$..allowedVariants[?(@ == 'agedthatch')]",
+    "value": false,
+    "patchMultiple": true,
+    "file": "leadroof:recipes/grid/shallowroofing.json",
+    "dependsOn": [
+      { "modid": "leadroof" }
+    ]
+  },
+  {
+    "op": "remove",
+    "path": "$..allowedVariants[?(@ == 'thatch')]",
+    "value": false,
+    "patchMultiple": true,
+    "file": "leadroof:recipes/grid/shallowroofing.json",
+    "dependsOn": [
+      { "modid": "leadroof" }
+    ]
+  },
+  {
+    "op": "remove",
+    "path": "$..allowedVariants[?(@ == 'slate')]",
+    "value": false,
+    "patchMultiple": true,
+    "file": "leadroof:recipes/grid/shallowroofing.json",
+    "dependsOn": [
+      { "modid": "leadroof" }
+    ]
+  },
+  {
+    "op": "remove",
+    "path": "$..allowedVariants[?(@ == 'bamboo')]",
+    "value": false,
+    "patchMultiple": true,
+    "file": "leadroof:recipes/grid/shallowroofing.json",
+    "dependsOn": [
+      { "modid": "leadroof" }
+    ]
+  }
+]
