@@ -1,0 +1,10 @@
+[
+  {
+    "op": "replace",
+    "path": "$.structures[?(@.group == 'trader' && @.mingroupDistance)].minGroupDistance",
+    "value": 300,
+    "patchMultiple": true,
+    "file": "game:worldgen/structures.json",
+    "side": "Server"
+  }
+]

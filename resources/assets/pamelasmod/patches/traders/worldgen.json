@@ -1,0 +1,35 @@
+[
+  {
+    "op": "replace",
+    "path": "$.structures[?(@.code == 'tradercavaran')].chance", // tradercavaran [sic] as of 1.18.1
+    "value": 4,
+    "patchMultiple": false,
+    "file": "game:worldgen/structures.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "bettertraders", "invert": true }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "$.structures[?(@.code == 'tradercavaranwagon')].chance", // tradercavaranwagon [sic] as of 1.18.1
+    "value": 4,
+    "patchMultiple": false,
+    "file": "game:worldgen/structures.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "bettertraders", "invert": true }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "$.structures[?(@.code == 'tradersettlement')].chance",
+    "value": 3,
+    "patchMultiple": false,
+    "file": "game:worldgen/structures.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "bettertraders", "invert": true }
+    ]
+  }
+]

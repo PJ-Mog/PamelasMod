@@ -1,0 +1,24 @@
+[
+  {
+    "op": "replace",
+    "path": "$[*].value.chance",
+    "value": 4,
+    "patchMultiple": true,
+    "file": "bettertraders:patches/bettertraders-main.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "bettertraders" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "$[?(@..name == 'Rusty Trader Wagons RARE')].value.chance",
+    "value": 3,
+    "patchMultiple": true,
+    "file": "bettertraders:patches/bettertraders-main.json",
+    "side": "Server",
+    "dependsOn": [
+      { "modid": "bettertraders" }
+    ]
+  }
+]

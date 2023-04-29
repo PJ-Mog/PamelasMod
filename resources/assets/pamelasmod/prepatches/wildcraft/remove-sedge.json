@@ -1,0 +1,68 @@
+[
+  {
+    "op": "add",
+    "path": "$[?(@..blockCodes[0] == 'wildcraft:sedge-hardsedge-normal')]",
+    "pathAppend": "/enabled",
+    "value": false,
+    "patchMultiple": true,
+    "file": "wildcraft:patches/worldgen/waterplants.json",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "$[?(@..blockCodes[0] == 'wildcraft:sedge-softsedge-normal')]",
+    "pathAppend": "/enabled",
+    "value": false,
+    "patchMultiple": true,
+    "file": "wildcraft:patches/worldgen/waterplants.json",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "$[?(@..blockCodes[0] == 'wildcraft:sedge-tule-normal')]",
+    "pathAppend": "/enabled",
+    "value": false,
+    "patchMultiple": true,
+    "file": "wildcraft:patches/worldgen/waterplants.json",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "$[?(@..blockCodes[0] == 'wildcraft:sedge-swamptule-normal')]",
+    "pathAppend": "/enabled",
+    "value": false,
+    "patchMultiple": true,
+    "file": "wildcraft:patches/worldgen/waterplants.json",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "$[?(@..blockCodes[0] == 'wildcraft:sedge-brownsedge-normal')]",
+    "pathAppend": "/enabled",
+    "value": false,
+    "patchMultiple": true,
+    "file": "wildcraft:patches/worldgen/waterplants.json",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "$[?(@..blockCodes[0] == 'wildcraft:sedge-waterchestnut-normal')]",
+    "pathAppend": "/enabled",
+    "value": false,
+    "patchMultiple": true,
+    "file": "wildcraft:patches/worldgen/waterplants.json",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  }
+]

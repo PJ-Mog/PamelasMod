@@ -1,0 +1,243 @@
+[
+  {
+    "op": "add",
+    "path": "/enabled",
+    "value": false,
+    "file": "wildcraft:blocktypes/plant/sedge.json",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  },
+
+  {
+    "op": "remove",
+    "path": "$.variants[?(@.code == 'sedge')]",
+    "file": "wildcraft:worldproperties/wildcraft/wildflora.json",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  },
+  {
+    "op": "remove",
+    "path": "$.variants[?(@.code == 'softsedge')]",
+    "file": "wildcraft:worldproperties/wildcraft/wildflora.json",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  },
+  {
+    "op": "remove",
+    "path": "$.variants[?(@.code == 'hardsedge')]",
+    "file": "wildcraft:worldproperties/wildcraft/wildflora.json",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  },
+  {
+    "op": "remove",
+    "path": "$.variants[?(@.code == 'brownsedge')]",
+    "file": "wildcraft:worldproperties/wildcraft/wildflora.json",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  },
+  {
+    "op": "remove",
+    "path": "$.variants[?(@.code == 'swamptule')]",
+    "file": "wildcraft:worldproperties/wildcraft/wildflora.json",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  },
+  {
+    "op": "remove",
+    "path": "$.variants[?(@.code == 'tule')]",
+    "file": "wildcraft:worldproperties/wildcraft/wildflora.json",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  },
+  {
+    "op": "remove",
+    "path": "$.variants[?(@.code == 'waterchestnut')]",
+    "file": "wildcraft:worldproperties/wildcraft/wildflora.json",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  },
+
+  {
+    "op": "remove",
+    "path": "$.variants[?(@.code == 'softsedge')]",
+    "file": "wildcraft:worldproperties/block/herbcrops.json",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  },
+
+  {
+    "op": "remove",
+    "path": "$.variants[?(@.code == 'softsedge')]",
+    "file": "wildcraft:worldproperties/block/herbs.json",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  },
+  {
+    "op": "remove",
+    "path": "$.variants[?(@.code == 'waterchestnut')]",
+    "file": "wildcraft:worldproperties/block/herbs.json",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  },
+
+  {
+    "op": "remove",
+    "path": "$.variants[?(@.code == 'softsedge')]",
+    "file": "wildcraft:worldproperties/block/herbseedlings.json",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  },
+  {
+    "op": "remove",
+    "path": "$.variants[?(@.code == 'waterchestnut')]",
+    "file": "wildcraft:worldproperties/block/herbseedlings.json",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  },
+  {
+    "op": "remove",
+    "path": "$.variants[?(@.code == 'waterchestnut')]",
+    "file": "wildcraft:worldproperties/wildcraft/wildroots.json",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  },
+  {
+    "op": "remove",
+    "path": "$.variants[?(@.code == 'tule')]",
+    "file": "wildcraft:worldproperties/wildcraft/wildroots.json",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  },
+  {
+    "op": "remove",
+    "path": "$.variants[?(@.code == 'brownsedge')]",
+    "file": "wildcraft:worldproperties/wildcraft/wildroots.json",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  },
+  {
+    "op": "remove",
+    "path": "$.variants[?(@.code == 'hardsedge')]",
+    "file": "wildcraft:worldproperties/wildcraft/wildroots.json",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  },
+
+  {
+    "op": "add",
+    "path": "/enabled",
+    "value": false,
+    "file": "wildcraft:itemtypes/bag/basket.json",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  },
+
+  {
+    "op": "remove",
+    "path": "$.variantgroups[*].states[?(@ == 'waterchestnut')]",
+    "patchMultiple": true,
+    "file": "wildcraft:itemtypes/food/roots.json",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  },
+  {
+    "op": "remove",
+    "path": "$.variantgroups[*].states[?(@ == 'peeledwaterchestnut')]",
+    "patchMultiple": true,
+    "file": "wildcraft:itemtypes/food/roots.json",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  },
+  {
+    "op": "remove",
+    "path": "$.variantgroups[*].states[?(@ == 'tule')]",
+    "patchMultiple": true,
+    "file": "wildcraft:itemtypes/food/roots.json",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  },
+  {
+    "op": "remove",
+    "path": "$.variantgroups[*].states[?(@ == 'brownsedge')]",
+    "patchMultiple": true,
+    "file": "wildcraft:itemtypes/food/roots.json",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  },
+  {
+    "op": "remove",
+    "path": "$.variantgroups[*].states[?(@ == 'hardsedge')]",
+    "patchMultiple": true,
+    "file": "wildcraft:itemtypes/food/roots.json",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  },
+
+  {
+    "op": "add",
+    "path": "/enabled",
+    "value": false,
+    "file": "wildcraft:itemtypes/resources/plantfibers.json",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  },
+
+  {
+    "op": "add",
+    "path": "/enabled",
+    "value": false,
+    "file": "wildcraft:itemtypes/resources/waterherbseeds.json",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  },
+
+  {
+    "op": "add",
+    "path": "$[*]",
+    "pathAppend": "/enabled",
+    "value": false,
+    "patchMultiple": true,
+    "file": "wildcraft:recipes/grid/basket*",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  },
+
+  {
+    "op": "add",
+    "path": "$[*]",
+    "pathAppend": "/enabled",
+    "value": false,
+    "patchMultiple": true,
+    "file": "wildcraft:recipes/grid/peelwaterchestnut.json",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  }
+]

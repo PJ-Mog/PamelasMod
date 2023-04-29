@@ -130,48 +130,6 @@
     "side": "Server"
   },
   {
-    "op": "replace",
-    "path": "/structures/26/chance",
-    "value": 4,
-    "file": "game:worldgen/structures.json",
-    "side": "Server"
-  },
-  {
-    "op": "replace",
-    "path": "/structures/26/minGroupDistance",
-    "value": 300,
-    "file": "game:worldgen/structures.json",
-    "side": "Server"
-  },
-  {
-    "op": "replace",
-    "path": "/structures/27/chance",
-    "value": 4,
-    "file": "game:worldgen/structures.json",
-    "side": "Server"
-  },
-  {
-    "op": "replace",
-    "path": "/structures/27/minGroupDistance",
-    "value": 300,
-    "file": "game:worldgen/structures.json",
-    "side": "Server"
-  },
-  {
-    "op": "replace",
-    "path": "/structures/28/chance",
-    "value": 3,
-    "file": "game:worldgen/structures.json",
-    "side": "Server"
-  },
-  {
-    "op": "replace",
-    "path": "/structures/28/minGroupDistance",
-    "value": 300,
-    "file": "game:worldgen/structures.json",
-    "side": "Server"
-  },
-  {
     "op": "add",
     "path": "/structures/-",
     "value": {
