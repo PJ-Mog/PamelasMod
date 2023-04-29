@@ -1,8 +1,9 @@
 [
   {
     "op": "replace",
-    "path": "/0/value/minGroupDistance",
-    "value": 2500,
+    "path": "$[?(@..group == 'megaruins')].value.minGroupDistance",
+    "value": 1250,
+    "patchMultiple": true,
     "file": "betterruins:patches/betterruins-worldgen-megastructures.json",
     "side": "Server",
     "dependsOn": [
@@ -21,28 +22,8 @@
   },
   {
     "op": "replace",
-    "path": "/1/value/minGroupDistance",
-    "value": 2500,
-    "file": "betterruins:patches/betterruins-worldgen-megastructures.json",
-    "side": "Server",
-    "dependsOn": [
-      { "modid": "betterruins" }
-    ]
-  },
-  {
-    "op": "replace",
     "path": "/1/value/chance",
     "value": 3.0,
-    "file": "betterruins:patches/betterruins-worldgen-megastructures.json",
-    "side": "Server",
-    "dependsOn": [
-      { "modid": "betterruins" }
-    ]
-  },
-  {
-    "op": "replace",
-    "path": "/2/value/minGroupDistance",
-    "value": 2500,
     "file": "betterruins:patches/betterruins-worldgen-megastructures.json",
     "side": "Server",
     "dependsOn": [
@@ -61,28 +42,8 @@
   },
   {
     "op": "replace",
-    "path": "/3/value/minGroupDistance",
-    "value": 2500,
-    "file": "betterruins:patches/betterruins-worldgen-megastructures.json",
-    "side": "Server",
-    "dependsOn": [
-      { "modid": "betterruins" }
-    ]
-  },
-  {
-    "op": "replace",
     "path": "/3/value/chance",
     "value": 0.005,
-    "file": "betterruins:patches/betterruins-worldgen-megastructures.json",
-    "side": "Server",
-    "dependsOn": [
-      { "modid": "betterruins" }
-    ]
-  },
-  {
-    "op": "replace",
-    "path": "/4/value/minGroupDistance",
-    "value": 2500,
     "file": "betterruins:patches/betterruins-worldgen-megastructures.json",
     "side": "Server",
     "dependsOn": [
@@ -101,28 +62,8 @@
   },
   {
     "op": "replace",
-    "path": "/5/value/minGroupDistance",
-    "value": 2500,
-    "file": "betterruins:patches/betterruins-worldgen-megastructures.json",
-    "side": "Server",
-    "dependsOn": [
-      { "modid": "betterruins" }
-    ]
-  },
-  {
-    "op": "replace",
     "path": "/5/value/chance",
     "value": 1,
-    "file": "betterruins:patches/betterruins-worldgen-megastructures.json",
-    "side": "Server",
-    "dependsOn": [
-      { "modid": "betterruins" }
-    ]
-  },
-  {
-    "op": "replace",
-    "path": "/6/value/minGroupDistance",
-    "value": 2500,
     "file": "betterruins:patches/betterruins-worldgen-megastructures.json",
     "side": "Server",
     "dependsOn": [
