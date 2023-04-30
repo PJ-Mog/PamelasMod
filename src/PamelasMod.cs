@@ -44,7 +44,7 @@ namespace PamelasMod {
         return;
       }
 
-      if (obj is ItemPlantableSeed || obj is ItemTreeSeed || obj.Code.Path.Contains("flour") || obj.Code.Path.Contains("feather")) {
+      if (obj is ItemPlantableSeed || obj is ItemTreeSeed || obj.Code.Path.Contains("flour") || obj.Code.Path.Contains("feather") || obj.Code.FirstCodePart() == "mortar") {
         obj.MaxStackSize = GameMath.Max(512, obj.MaxStackSize);
         return;
       }

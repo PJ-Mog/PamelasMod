@@ -1,0 +1,47 @@
+[
+  {
+    "op": "add",
+    "path": "/enabled",
+    "value": false,
+    "file": "wildcraft:blocktypes/plant/amphibiousplant.json",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  },
+  {
+    "op": "remove",
+    "path": "$.variants[?(@.code == 'skunkcabbage')]",
+    "file": "wildcraft:worldproperties/wildcraft/wildflora.json",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "$[?(@.output.code == 'wildcraft:waterherbseeds-skunkcabbage')]",
+    "pathAppend": "/enabled",
+    "value": false,
+    "patchMultiple": true,
+    "file": "wildcraft:recipes/grid/herbseeds.json",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/enabled",
+    "value": false,
+    "file": "wildcraft:itemtypes/resources/skunkcabbage.json",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  },
+  {
+    "op": "remove",
+    "path": "$.variantgroups[*].states[?(@ == 'skunkcabbage')]",
+    "file": "wildcraft:itemtypes/resources/waterherbseeds.json",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  }
+]

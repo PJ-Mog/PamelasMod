@@ -1,0 +1,12 @@
+[
+  {
+    "op": "add",
+    "path": "$[?(@.value.blockCodes[0] == 'wildcraft:amphibiousplant-skunkcabbage-small-free')]",
+    "pathAppend": "/enabled",
+    "value": false,
+    "file": "wildcraft:patches/worldgen/herbs.json",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  }
+]
