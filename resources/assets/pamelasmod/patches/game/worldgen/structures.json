@@ -199,8 +199,8 @@
     "op": "add",
     "path": "/structures/-",
     "value": {
-      "code": "village-buildings-as-structures",
-      "chance": 0.3,
+      "code": "village-buildings-as-structures-village-4",
+      "chance": 0.6,
       "schematics": ["overground/village/village-4"],
       "offsetY": -6,
       "placement": "surface",

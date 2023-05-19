@@ -2,7 +2,7 @@
   {
     "op": "add",
     "path": "/villageTypes/0/schematics/-",
-    "value": { "path": "overground/village/village-4", "offsetY": -2, "weight": 40 },
+    "value": { "path": "overground/village/village-4", "offsetY": -6, "weight": 40 },
     "file": "game:worldgen/villages.json",
     "side": "Server"
   }
