@@ -1,0 +1,42 @@
+[
+  {
+    "op": "remove",
+    "path": "$.variantgroups[*].states[?(@ == 'minerslettuce')]",
+    "file": "wildcraft:blocktypes/plant/smallannual.json",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  },
+  {
+    "op": "remove",
+    "path": "$.variants[?(@.code == 'minerslettuce')]",
+    "file": "wildcraft:worldproperties/block/herbcrops.json",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  },
+  {
+    "op": "remove",
+    "path": "$.variants[?(@.code == 'minerslettuce')]",
+    "file": "wildcraft:worldproperties/block/herbs.json",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  },
+  {
+    "op": "remove",
+    "path": "$.variants[?(@.code == 'minerslettuce')]",
+    "file": "wildcraft:worldproperties/block/herbseedlings.json",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  },
+  {
+    "op": "remove",
+    "path": "$.variants[?(@.code == 'minerslettuce')]",
+    "file": "wildcraft:worldproperties/wildcraft/wildflora.json",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  },
+]

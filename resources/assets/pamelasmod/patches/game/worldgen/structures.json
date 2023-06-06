@@ -200,7 +200,7 @@
     "path": "/structures/-",
     "value": {
       "code": "village-buildings-as-structures-village-4",
-      "chance": 0.6,
+      "chance": 0.75,
       "schematics": ["overground/village/village-4"],
       "offsetY": -6,
       "placement": "surface",

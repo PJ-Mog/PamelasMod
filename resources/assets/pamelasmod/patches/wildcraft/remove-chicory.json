@@ -1,0 +1,58 @@
+[
+  {
+    "op": "remove",
+    "path": "$.variantgroups[*].states[?(@ == 'chicory')]",
+    "file": "wildcraft:blocktypes/plant/annuals.json",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  },
+  {
+    "op": "remove",
+    "path": "$.variantgroups[*].states[?(@ == 'chicory')]",
+    "file": "wildcraft:itemtypes/food/roots.json",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  },
+  {
+    "op": "remove",
+    "path": "$.variants[?(@.code == 'chicory')]",
+    "file": "wildcraft:worldproperties/block/herbcrops.json",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  },
+  {
+    "op": "remove",
+    "path": "$.variants[?(@.code == 'chicory')]",
+    "file": "wildcraft:worldproperties/block/herbs.json",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  },
+  {
+    "op": "remove",
+    "path": "$.variants[?(@.code == 'chicory')]",
+    "file": "wildcraft:worldproperties/block/herbseedlings.json",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  },
+  {
+    "op": "remove",
+    "path": "$.variants[?(@.code == 'chicory')]",
+    "file": "wildcraft:worldproperties/wildcraft/wildflora.json",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  },
+  {
+    "op": "remove",
+    "path": "$.variants[?(@.code == 'chicory')]",
+    "file": "wildcraft:worldproperties/wildcraft/wildroots.json",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  }
+]

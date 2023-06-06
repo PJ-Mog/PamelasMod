@@ -1,0 +1,34 @@
+[
+  {
+    "op": "remove",
+    "path": "$.variantgroups[*].states[?(@ == 'plantain')]",
+    "file": "wildcraft:blocktypes/plant/perennials.json",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  },
+  {
+    "op": "remove",
+    "path": "$.variants[?(@.code == 'plantain')]",
+    "file": "wildcraft:worldproperties/block/herbs.json",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  },
+  {
+    "op": "remove",
+    "path": "$.variants[?(@.code == 'plantain')]",
+    "file": "wildcraft:worldproperties/block/herbseedlings.json",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  },
+  {
+    "op": "remove",
+    "path": "$.variants[?(@.code == 'plantain')]",
+    "file": "wildcraft:worldproperties/wildcraft/wildflora.json",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  }
+]
