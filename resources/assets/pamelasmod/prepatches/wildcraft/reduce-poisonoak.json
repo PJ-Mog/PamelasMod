@@ -1,0 +1,22 @@
+[
+  {
+    "op": "replace",
+    "path": "$[?(@.value.blockCodes[0] == 'wildcraft:evergreenplant-poisonoak-normal' && @.value.quantity.avg == 250)]",
+    "pathAppend": "/value/quantity/var",
+    "value": 12,
+    "file": "wildcraft:patches/worldgen/herbs.json",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "$[?(@.value.blockCodes[0] == 'wildcraft:evergreenplant-poisonoak-normal' && @.value.quantity.avg == 250)]",
+    "pathAppend": "/value/quantity/avg",
+    "value": 24,
+    "file": "wildcraft:patches/worldgen/herbs.json",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "op": "replace",
+    "path": "$[?(@.value.blockCodes[0] == 'wildcraft:pricklyberrybush-brambleberry-empty' && @.value.quantity.avg == 100)]",
+    "pathAppend": "/value/quantity/var",
+    "value": 6,
+    "file": "wildcraft:patches/worldgen/berries.json",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "$[?(@.value.blockCodes[0] == 'wildcraft:pricklyberrybush-brambleberry-empty' && @.value.quantity.avg == 100)]",
+    "pathAppend": "/value/quantity/avg",
+    "value": 12,
+    "file": "wildcraft:patches/worldgen/berries.json",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "$[?(@.value.blockCodes[0] == 'wildcraft:pricklyberrybush-brambleberry-flowering')]",
+    "pathAppend": "/value/quantity/var",
+    "value": 12,
+    "file": "wildcraft:patches/worldgen/berries.json",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  },
+  {
+    "op": "replace",
+    "path": "$[?(@.value.blockCodes[0] == 'wildcraft:pricklyberrybush-brambleberry-flowering')]",
+    "pathAppend": "/value/quantity/avg",
+    "value": 24,
+    "file": "wildcraft:patches/worldgen/berries.json",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  }
+]
