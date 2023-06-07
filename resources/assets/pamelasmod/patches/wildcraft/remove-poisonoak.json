@@ -1,0 +1,68 @@
+[
+  {
+    "op": "remove",
+    "path": "$.variantgroups[*].states[?(@ == 'poisonoak')]",
+    "file": "wildcraft:blocktypes/plant/evergreens.json",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  },
+  {
+    "op": "remove",
+    "path": "$.variantgroups[*].states[?(@ == 'poisonoak')]",
+    "file": "wildcraft:itemtypes/poultice.json",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  },
+  {
+    "op": "remove",
+    "path": "$.variantgroups[*].states[?(@ == 'poisonoak')]",
+    "file": "wildcraft:itemtypes/simplepoultice.json",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  },
+  {
+    "op": "remove",
+    "path": "$.ingredients.*.allowedVariants[?(@ == 'poisonoak')]",
+    "patchMultiple": true,
+    "file": "wildcraft:recipes/grid/poultices/*",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  },
+  {
+    "op": "remove",
+    "path": "$[*].ingredients.*.allowedVariants[?(@ == 'poisonoak')]",
+    "patchMultiple": true,
+    "file": "wildcraft:recipes/grid/poultices/*",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  },
+  {
+    "op": "remove",
+    "path": "$.variants[?(@.code == 'poisonoak')]",
+    "file": "wildcraft:worldproperties/block/herbs.json",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  },
+  {
+    "op": "remove",
+    "path": "$.variants[?(@.code == 'poisonoak')]",
+    "file": "wildcraft:worldproperties/block/herbseedlings.json",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  },
+  {
+    "op": "remove",
+    "path": "$.variants[?(@.code == 'poisonoak')]",
+    "file": "wildcraft:worldproperties/wildcraft/wildflora.json",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  }
+]

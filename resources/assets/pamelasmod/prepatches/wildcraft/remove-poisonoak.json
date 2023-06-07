@@ -1,0 +1,13 @@
+[
+  {
+    "op": "add",
+    "path": "$[?(@.value.blockCodes[0] == 'wildcraft:evergreenplant-poisonoak-normal')]",
+    "pathAppend": "/enabled",
+    "patchMultiple": true,
+    "value": false,
+    "file": "wildcraft:patches/worldgen/herbs.json",
+    "dependsOn": [
+      { "modid": "wildcraft" }
+    ]
+  }
+]
