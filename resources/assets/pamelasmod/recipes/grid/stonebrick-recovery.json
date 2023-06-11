@@ -1,0 +1,35 @@
+[
+  {
+    "ingredientPattern": "PS",
+    "ingredients": {
+      "P": { "type": "item", "code": "game:pickaxe-*", "isTool": true, "toolDurabilityCost": 0 },
+      "S": { "type": "block", "code": "game:stonebricks-*", "name": "rock", "quantity": 1 }
+    },
+    "shapeless": true,
+    "width": 1,
+    "height": 2,
+    "output": { "type": "item", "code": "game:stonebrick-{rock}", "quantity": 4 }
+  },
+  {
+    "ingredientPattern": "PS",
+    "ingredients": {
+      "P": { "type": "item", "code": "game:pickaxe-*", "isTool": true, "toolDurabilityCost": 0 },
+      "S": { "type": "block", "code": "game:stonebrickslab-*-down-free", "name": "rock", "quantity": 2, "allowedVariants": [ "andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite" ] }
+    },
+    "shapeless": true,
+    "width": 1,
+    "height": 2,
+    "output": { "type": "item", "code": "game:stonebrick-{rock}", "quantity": 5 }
+  },
+  {
+    "ingredientPattern": "PS",
+    "ingredients": {
+      "P": { "type": "item", "code": "game:pickaxe-*", "isTool": true, "toolDurabilityCost": 0 },
+      "S": { "type": "block", "code": "game:stonebrickstairs-*-up-north-free", "name": "rock", "quantity": 2, "allowedVariants": [ "andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite" ] }
+    },
+    "shapeless": true,
+    "width": 1,
+    "height": 2,
+    "output": { "type": "item", "code": "game:stonebrick-{rock}", "quantity": 7 }
+  }
+]
