@@ -1,0 +1,35 @@
+[
+  {
+    "ingredientPattern": "PS",
+    "ingredients": {
+      "P": { "type": "item", "code": "game:pickaxe-*", "isTool": true, "toolDurabilityCost": 0 },
+      "S": { "type": "block", "code": "game:cobblestone-*", "name": "rock", "quantity": 1 }
+    },
+    "shapeless": true,
+    "width": 1,
+    "height": 2,
+    "output": { "type": "item", "code": "game:stone-{rock}", "quantity": 4 }
+  },
+  {
+    "ingredientPattern": "PS",
+    "ingredients": {
+      "P": { "type": "item", "code": "game:pickaxe-*", "isTool": true, "toolDurabilityCost": 0 },
+      "S": { "type": "block", "code": "game:cobblestoneslab-*-down-free", "name": "rock", "quantity": 2, "allowedVariants": [ "andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite", "kimberlite", "suevite", "whitemarble", "redmarble", "greenmarble" ] }
+    },
+    "shapeless": true,
+    "width": 1,
+    "height": 2,
+    "output": { "type": "item", "code": "game:stone-{rock}", "quantity": 3 }
+  },
+  {
+    "ingredientPattern": "PS",
+    "ingredients": {
+      "P": { "type": "item", "code": "game:pickaxe-*", "isTool": true, "toolDurabilityCost": 0 },
+      "S": { "type": "block", "code": "game:cobblestonestairs-*-up-north-free", "name": "rock", "quantity": 2, "allowedVariants": [ "andesite", "chalk", "chert", "conglomerate", "limestone", "claystone", "granite", "sandstone", "shale", "basalt", "peridotite", "phyllite", "slate", "bauxite", "kimberlite", "suevite", "whitemarble", "redmarble", "greenmarble" ] }
+    },
+    "shapeless": true,
+    "width": 1,
+    "height": 2,
+    "output": { "type": "item", "code": "game:stone-{rock}", "quantity": 7 }
+  }
+]
