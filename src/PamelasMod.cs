@@ -71,14 +71,7 @@ namespace PamelasMod {
 
       BlockLootVessel.lootLists["food"] = LootList.Create(2f, new LootItem[]
       {
-        LootItem.Item(3f, 16f, 32f, new string[]
-        {
-          "grain-spelt",
-          "grain-rice",
-          "grain-flax",
-          "grain-rice",
-          "grain-rye"
-        }),
+        LootItem.Item(3f, 16f, 32f, GetLootVesselGrainDrops(sapi)),
         LootItem.Item(3f, 8f, 16f, new string[]
         {
           "fruit-redapple",
@@ -331,6 +324,20 @@ namespace PamelasMod {
         possibleClayDrops.Add("clay-brown");
       }
       return possibleClayDrops.ToArray();
+    }
+
+    private string[] GetLootVesselGrainDrops(ICoreServerAPI sapi) {
+      var possibleGrainDrops = new List<string> {
+        "grain-spelt",
+        "grain-rice",
+        "grain-flax",
+        "grain-rice",
+        "grain-rye"
+      };
+      if (sapi.ModLoader.IsModEnabled("morecrops")) {
+        possibleGrainDrops.Add("morecrops:grain-oat");
+      }
+      return possibleGrainDrops.ToArray();
     }
   }
 }
