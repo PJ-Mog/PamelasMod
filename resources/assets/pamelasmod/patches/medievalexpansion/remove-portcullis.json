@@ -1,0 +1,22 @@
+[
+  {
+    "op": "add",
+    "path": "/enabled",
+    "value": false,
+    "file": "medievalexpansion:blocktypes/metal/portcullis*",
+    "dependsOn": [
+      { "modid": "medievalexpansion" }
+    ]
+  },
+  {
+    "op": "add",
+    "path": "$[*]",
+    "pathAppend": "/enabled",
+    "value": false,
+    "patchMultiple": true,
+    "file": "medievalexpansion:recipes/grid/portcullis*",
+    "dependsOn": [
+      { "modid": "medievalexpansion" }
+    ]
+  }
+]
